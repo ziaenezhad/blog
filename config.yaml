@@ -1,4 +1,4 @@
-baseurl: https://derock.ir
+baseurl: https://sajjadshirazi.ir
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -70,7 +70,7 @@ params:
     provider: utterances
 
     utterances:
-      repo: openderock/derock.ir
+      repo: sajjad-shirazy/blog
       issueTerm: pathname
       label: comment
 

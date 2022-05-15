@@ -1,1 +1,3 @@
-Example site modified from https://github.com/gohugoio/hugoBasicExample
+# My Blog
+
+https://sajjadshirazi.ir
