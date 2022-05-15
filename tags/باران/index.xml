@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>باران on پردازش هوشمند دراک شیراز</title><link>https://derock.ir/tags/%D8%A8%D8%A7%D8%B1%D8%A7%D9%86/</link><description>Recent content in باران on پردازش هوشمند دراک شیراز</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://derock.ir/tags/%D8%A8%D8%A7%D8%B1%D8%A7%D9%86/index.xml" rel="self" type="application/rss+xml"/><item><title>ماشین حساب جمع آوری آب باران</title><link>https://derock.ir/p/rainwater-collection-calculator/</link><pubDate>Mon, 09 May 2022 00:00:00 +0000</pubDate><guid>https://derock.ir/p/rainwater-collection-calculator/</guid><description>&lt;img src="https://derock.ir/p/rainwater-collection-calculator/cover.jpg" alt="Featured image of post ماشین حساب جمع آوری آب باران" />&lt;h2 id="ماشین-حساب">ماشین حساب&lt;/h2>
+&lt;style>
+input {
+width: 100%;
+font-family: monospace;
+}
+.calculator td {
+vertical-align: middle;
+}
+.calculator tr:nth-child(even) {
+background-color: initial;
+}
+.result {
+background-color: var(--tr-even-background-color) !important;
+}
+&lt;/style>
+&lt;table class="calculator">
+&lt;tbody>
+&lt;tr>
+&lt;td>متوسط بارش سالانه (mm)&lt;/td>
+&lt;td style="text-align: right">
+&lt;input id="rain-factor" type="number" value="150" />
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>مساحت زمین (m2)&lt;/td>
+&lt;td style="text-align: right">
+&lt;input id="area" type="number" value="120" />
+&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td colspan="2">&lt;/td>
+&lt;/tr>
+&lt;tr class="result">
+&lt;td>حجم آب سالانه (لیتر)&lt;/td>
+&lt;td id="volume-liter" style="text-align: right">0&lt;/td>
+&lt;/tr>
+&lt;tr class="result">
+&lt;td>حجم آب سالانه (m3)&lt;/td>
+&lt;td id="volume-m3" style="text-align: right">0&lt;/td>
+&lt;/tr>
+&lt;tr class="result">
+&lt;td>تعداد درخت پالونیای قابل پشتیبانی&lt;/td>
+&lt;td id="trees-count" style="text-align: right">0&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;script>
+const rainFactorInput = document.getElementById('rain-factor');
+const areaInput = document.getElementById('area');
+const volumeLitterDom = document.getElementById('volume-liter');
+const volumeM3Dom = document.getElementById('volume-m3');
+const treesCountDom = document.getElementById('trees-count');
+rainFactorInput.oninput = calculate;
+areaInput.oninput = calculate;
+function calculate() {
+const rainFactor = parseFloat(rainFactorInput.value);
+const area = parseFloat(areaInput.value);
+const volume = rainFactor * area;
+volumeLitterDom.textContent = volume;
+volumeM3Dom.textContent = volume / 1000;
+treesCountDom.textContent = Math.round(volume / 600);
+}
+calculate();
+&lt;/script>
+&lt;h2 id="متوسط-بارش-سالانه">متوسط بارش سالانه&lt;/h2>
+&lt;p>باران‌سنج ابزاری است که با استفاده از آن میزان بارندگی را در مدت زمانی معینی اندازه می‌گیرند. کشورهای مختلف در سراسر جهان برای ثبت میزان بارندگی در مکان‌های مختلف، از این وسیله استفاده می‌کنند. واحد اندازه‌گیری باران میلی‌متر است. نوع معمولی باران‌سنج به شکل یک استوانه با درپوش متحرک است. در داخل استوانه لوله‌ای باریک و دراز وجود دارد. این لوله میزان باران را نشان می‌دهد و سر آن به قیف متصل است. باران از روی قیف داخل لوله می رود. سطح این قیف‌ها ده برابر سطح لوله است. به این ترتیب، اگر یک میلی‌متر باران بر سطح قیف ببارد، ده میلی‌متر از لوله را پر خواهد کرد. سپس مقدار باران در لوله به‌وسیلهٔ خط‌کش اندازه‌گیری می‌شود.&lt;/p>
+&lt;h2 id="میزان-بارش-استانهای-ایران">میزان بارش استان‌های ایران&lt;/h2>
+&lt;p>&lt;strong>منبع:&lt;/strong> &lt;a class="link" href="https://fa.wikipedia.org/wiki/%D9%85%DB%8C%D8%B2%D8%A7%D9%86_%D8%A8%D8%A7%D8%B1%D8%B4_%D8%A7%D8%B3%D8%AA%D8%A7%D9%86%E2%80%8C%D9%87%D8%A7%DB%8C_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86" target="_blank" rel="noopener"
+>ویکی پدیا&lt;/a>&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th style="text-align:right">&lt;strong>رتبه&lt;/strong>&lt;/th>
+&lt;th style="text-align:right">&lt;strong>استان&lt;/strong>&lt;/th>
+&lt;th style="text-align:right">&lt;strong>مجموع بارندگی سالیانه به میلیمتر&lt;/strong>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۱&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان گیلان&lt;/td>
+&lt;td style="text-align:right">۹۱۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان کهگیلویه و بویراحمد&lt;/td>
+&lt;td style="text-align:right">۶۵۴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٣&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان مازندران&lt;/td>
+&lt;td style="text-align:right">۶۳۱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۴&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان چهارمحال و بختیاری&lt;/td>
+&lt;td style="text-align:right">۵۹۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۵&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان لرستان&lt;/td>
+&lt;td style="text-align:right">۵۴۹&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۶&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان کرمانشاه&lt;/td>
+&lt;td style="text-align:right">۴۷۵&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٧&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان گلستان&lt;/td>
+&lt;td style="text-align:right">۴۷۱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٨&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان کردستان&lt;/td>
+&lt;td style="text-align:right">۴۱۷&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٩&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان البرز&lt;/td>
+&lt;td style="text-align:right">۴۱۱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١٠&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان ایلام&lt;/td>
+&lt;td style="text-align:right">۴۱۰&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١١&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان خوزستان&lt;/td>
+&lt;td style="text-align:right">۳۵۸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١٢&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان همدان&lt;/td>
+&lt;td style="text-align:right">٣۵۶&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۱۳&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان آذربایجان غربی&lt;/td>
+&lt;td style="text-align:right">۳۵۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۱۴&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان اردبیل&lt;/td>
+&lt;td style="text-align:right">۳۱۷&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١۵&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">زنجان&lt;/td>
+&lt;td style="text-align:right">۳۱۴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١۶&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">آذربایجان شرقی&lt;/td>
+&lt;td style="text-align:right">۳۰۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١٧&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">قزوین&lt;/td>
+&lt;td style="text-align:right">۲۹۰&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١٨&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">فارس&lt;/td>
+&lt;td style="text-align:right">۲۸۸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>١٩&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان مرکزی&lt;/td>
+&lt;td style="text-align:right">۲۷۶&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢٠&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان تهران&lt;/td>
+&lt;td style="text-align:right">۲۷۴&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢١&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان خراسان شمالی&lt;/td>
+&lt;td style="text-align:right">۲۶۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢٢&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">بوشهر&lt;/td>
+&lt;td style="text-align:right">۲۰۱&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢٣&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان خراسان رضوی&lt;/td>
+&lt;td style="text-align:right">۲۰۰&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢۴&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان هرمزگان&lt;/td>
+&lt;td style="text-align:right">۱۸۲&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢۵&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان قم&lt;/td>
+&lt;td style="text-align:right">۱۵۶&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢۶&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان اصفهان&lt;/td>
+&lt;td style="text-align:right">۱۳۸&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۲٧&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">سمنان&lt;/td>
+&lt;td style="text-align:right">۱۲۰&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۲٨&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">کرمان&lt;/td>
+&lt;td style="text-align:right">۱۱۷&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>٢٩&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان خراسان جنوبی&lt;/td>
+&lt;td style="text-align:right">۱۱۳&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۳٠&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان سیستان و بلوچستان&lt;/td>
+&lt;td style="text-align:right">۱۰۶&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:right">&lt;strong>۳١&lt;/strong>&lt;/td>
+&lt;td style="text-align:right">استان یزد&lt;/td>
+&lt;td style="text-align:right">۹۳&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="درخت-پالونیا">درخت پالونیا&lt;/h2>
+&lt;p>پالونیا از اواسط دهه هشتاد وارد ایران شده و در شیراز و استان گلستان کشت می‌شود. این درخت به دلیل گل‌های بسیار زیبا و خوشه مانندی که دارد، درخت زینتی بسیار محبوبی به‌شمار می‌آید و به وفور در پارک‌ها و باغ‌ها کاشته می‌شود و جایزه انجمن شایستگی باغ انگلستان را از آن خود کرده‌است.&lt;/p>
+&lt;p>طبق تحقیقات انجام شده، بهترین شرایط رشد این درخت از نظر آبیاری، 10 لیتر در هر دوره 6 روزه می باشد و همین مقدار در محاسبات این صفحه در نظر گرفته شده.&lt;/p>
+&lt;p>اطلاعات بیشتر و محاسبات دقیقتر در مورد این درخت را، می توانید در &lt;a class="link" href="https://derock.ir/p/paulownia-planting-calculator/" >صفحه ماشین حساب کشت درخت پالونیا&lt;/a> مشاهده کنید.&lt;/p></description></item></channel></rss>
