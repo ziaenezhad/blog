@@ -1,0 +1,57 @@
+<style>
+  input {
+    width: 100%;
+    font-family: monospace;
+  }
+
+  .calculator td {
+    vertical-align: middle;
+  }
+
+  .calculator tr:nth-child(even) {
+    background-color: initial;
+  }
+
+  .result {
+    background-color: var(--tr-even-background-color) !important;
+  }
+</style>
+<table class="calculator">
+  <tbody>
+    <tr>
+      <td>مساحت زمین (m2)</td>
+      <td style="text-align: right">
+        <input id="area" type="number" value="120" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2"></td>
+    </tr>
+    <tr class="result">
+      <td>تعداد درخت پالونیای قابل کشت</td>
+      <td id="trees-count" style="text-align: right">0</td>
+    </tr>
+    <tr class="result">
+      <td>حجم آب مورد نیاز سالانه (لیتر)</td>
+      <td id="volume-liter" style="text-align: right">0</td>
+    </tr>
+  </tbody>
+</table>
+<script>
+  const areaInput = document.getElementById('area');
+  const volumeLitterDom = document.getElementById('volume-liter');
+  const volumeM3Dom = document.getElementById('volume-m3');
+  const treesCountDom = document.getElementById('trees-count');
+
+  // Event listeners
+  areaInput.oninput = calculate;
+
+  function calculate() {
+    const area = parseFloat(areaInput.value);
+    const treesCount = Math.round(area * 68.34 / 1000);
+    volumeLitterDom.textContent = Math.round(treesCount * 600);
+    treesCountDom.textContent = treesCount;
+  }
+
+  calculate();
+</script>

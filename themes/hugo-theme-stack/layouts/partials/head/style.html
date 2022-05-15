@@ -1,0 +1,7 @@
+{{ $sass := resources.Get "scss/style.scss" }}
+{{ $style := $sass | resources.ToCSS | minify | resources.Fingerprint "sha256" }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+<!-- <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v32.102/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" /> -->
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet" type="text/css" />
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-code-font@v1.1.2/dist/font-face.css" rel="stylesheet" type="text/css" />
+
