@@ -2,17 +2,17 @@ baseurl: https://sajjadshirazi.ir
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: پردازش هوشمند دراک شیراز
+title: رفتن
 
 languages:
-  en:
-    languageName: English
-    title: Derock intelligent processing
-    weight: 1
   fa:
     languageName: فارسی
     languagedirection: rtl
-    title: پردازش هوشمند دراک شیراز
+    title: رفتن
+    weight: 1
+  en:
+    languageName: English
+    title: Raftan
     weight: 2
 
 # Change it to your Disqus shortname before using
@@ -131,7 +131,7 @@ menu:
 
     - identifier: github
       name: GitHub
-      url: https://github.com/openderock
+      url: https://github.com/sajjad-shirazy
       params:
         icon: brand-github
 
