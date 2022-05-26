@@ -9,7 +9,7 @@ tags: [
   "CI/CD",
 ]
 categories: [
-  "devops"
+  "DevOps"
 ]
 ---
 
