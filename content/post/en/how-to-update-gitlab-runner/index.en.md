@@ -1,5 +1,6 @@
 ---
 title: How to update Gitlab Runners?
+date: 2022-05-26
 slug: how-to-update-gitlab-runner
 image: cover.jpg
 description: One of my colleagues asked me to update one of the Gitlab runners who had an older version yesterday. In this article, I will share how I did this update with you.
@@ -8,7 +9,7 @@ tags: [
   "CI/CD",
 ]
 categories: [
-  "DevOps"
+  "devops"
 ]
 ---
 
