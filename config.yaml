@@ -12,7 +12,8 @@ languages:
     weight: 1
   en:
     languageName: English
-    title: Raftan
+    title: Sajjad Shirazi
+    subTitle: 'kkjhk'
     weight: 2
 
 # Change it to your Disqus shortname before using
@@ -51,7 +52,9 @@ params:
   sidebar:
     local: true
     # emoji: 🍥
-    subtitle: ماجراهای درون، در معرض عالم بیرون
+    subtitle: 
+      fa: ماجراهای درون، در معرض عالم بیرون
+      en: A personal blog about computer science and life.
     avatar:
       enabled: true
       local: true
