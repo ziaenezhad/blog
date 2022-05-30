@@ -7,7 +7,7 @@ links:
     website: https://raftan.blog.ir
     image: https://blog.ir/media/images/HLogo2-home.jpg
   - title: الف 39
-    description: سی پلاس پلاس کار عارف که اتفاقی در گیت هاب یافته شد.
+    description: سی پلاس پلاس کار عارف که اتفاقی در گیت هاب با او آشنا شدم.
     website: https://www.alef39.ir/
     image: https://www.alef39.ir/wp-content/uploads/2013/11/%D8%A7%D9%84%D9%81-%DB%B3%DB%B9.svg
 
