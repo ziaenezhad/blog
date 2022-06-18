@@ -2,7 +2,7 @@
 title: Dokku Installation TODO list
 date: 2022-06-18
 image: cover.jpg
-description: Dokku is an extensible, open source Platform as a Service that runs on a single server of your choi In this post I made my own Dokku installation todo list.
+description: Dokku is an extensible, open source Platform as a Service that runs on a single server of your choice. In this post I made my own Dokku installation todo list.
 tags: [
   "Docker",
   "Dokku",
