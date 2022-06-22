@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sentry on Sajjad Shirazi</title><link>https://sajjadshirazi.ir/en/tags/sentry/</link><description>Recent content in Sentry on Sajjad Shirazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 22 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sajjadshirazi.ir/en/tags/sentry/index.xml" rel="self" type="application/rss+xml"/><item><title>Self hosted Sentry updating TODO list</title><link>https://sajjadshirazi.ir/en/p/self-hosted-sentry-updating-todo-list/</link><pubDate>Wed, 22 Jun 2022 00:00:00 +0000</pubDate><guid>https://sajjadshirazi.ir/en/p/self-hosted-sentry-updating-todo-list/</guid><description>&lt;img src="https://sajjadshirazi.ir/en/p/self-hosted-sentry-updating-todo-list/cover.jpg" alt="Featured image of post Self hosted Sentry updating TODO list" />&lt;p>In addition to making its source code available publicly, &lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
+>Sentry&lt;/a> offers and maintains a minimal setup that works out-of-the-box for simple use cases.&lt;/p>
+&lt;p>&lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
+>Sentry&lt;/a> encourage everyone to regularly update their &lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
+>Sentry&lt;/a> installations to get the best and the most recent &lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
+>Sentry&lt;/a> experience.&lt;/p>
+&lt;h2 id="create-a-backeupsnapshot">Create a backeup/snapshot&lt;/h2>
+&lt;p>Make Sure you have a quickly revertable backup/snapshot.&lt;/p>
+&lt;h2 id="download-the-closer-update">Download the closer update&lt;/h2>
+&lt;p>You have to update your &lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
+>Sentry&lt;/a> one by one, so you can&amp;rsquo;t upgrade from &lt;code>20.x&lt;/code> to &lt;code>22.x&lt;/code> or some thing.&lt;/p>
+&lt;p>Supposing the next one is &lt;code>21.9.0&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">wget -qO- https://github.com/getsentry/self-hosted/archive/refs/tags/21.9.0.tar.gz &lt;span class="p">|&lt;/span> tar xvz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="change-the-permissions-of-all-files--directories">Change the permissions of all files &amp;amp; directories&lt;/h2>
+&lt;h3 id="directories">Directories&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">find ./self-hosted-21.9.0 -type d -exec chmod &lt;span class="m">777&lt;/span> &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="files">Files&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">find ./self-hosted-21.9.0 -type f -exec chmod &lt;span class="m">777&lt;/span> &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="copy-the-configenv-files-to-the-new-version-directory">Copy the config/env files to the new version directory&lt;/h2>
+&lt;p>These are the config files. It&amp;rsquo;s not bad to compare the old and new config files before moving, to make sure the formats are same.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>sentry/config.yml&lt;/code>&lt;/li>
+&lt;li>&lt;code>sentry/sentry.conf.py&lt;/code>&lt;/li>
+&lt;li>&lt;code>.env&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;h2 id="run-the-installation-script">Run the installation script&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo bash ./install.sh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="start-the-services">Start the services&lt;/h2>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">docker-compose up -d
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Done 🙂&lt;/p></description></item></channel></rss>
