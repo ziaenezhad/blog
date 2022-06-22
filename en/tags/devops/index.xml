@@ -9,7 +9,7 @@
 &lt;h2 id="download-the-closer-update">Download the closer update&lt;/h2>
 &lt;p>You have to update your &lt;a class="link" href="https://sentry.io/welcome/" target="_blank" rel="noopener"
 >Sentry&lt;/a> one by one, so you can&amp;rsquo;t upgrade from &lt;code>20.x&lt;/code> to &lt;code>22.x&lt;/code> or some thing.&lt;/p>
-&lt;p>Also read the release notes carefully. some time there sre more steps before updating to a release:&lt;/p>
+&lt;p>Also read the release notes carefully. some times there are more steps before updating to a release:&lt;/p>
 &lt;p>&lt;a class="link" href="https://github.com/getsentry/self-hosted/releases" target="_blank" rel="noopener"
 >https://github.com/getsentry/self-hosted/releases&lt;/a>&lt;/p>
 &lt;p>Supposing the next one is &lt;code>21.9.0&lt;/code>:&lt;/p>
