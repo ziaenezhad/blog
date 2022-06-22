@@ -26,6 +26,10 @@ Make Sure you have a quickly revertable backup/snapshot.
 
 You have to update your [Sentry](https://sentry.io/welcome/) one by one, so you can't upgrade from `20.x` to `22.x` or some thing.
 
+Also read the release notes carefully. some time there sre more steps before updating to a release:
+
+[https://github.com/getsentry/self-hosted/releases](https://github.com/getsentry/self-hosted/releases)
+
 Supposing the next one is `21.9.0`:
 
 ```shell
