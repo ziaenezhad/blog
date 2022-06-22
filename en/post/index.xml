@@ -21,25 +21,6 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">wget -qO- https://github.com/getsentry/self-hosted/archive/refs/tags/21.9.0.tar.gz &lt;span class="p">|&lt;/span> tar xvz
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="change-the-permissions-of-all-files--directories">Change the permissions of all files &amp;amp; directories&lt;/h2>
-&lt;h3 id="directories">Directories&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">find ./self-hosted-21.9.0 -type d -exec chmod &lt;span class="m">777&lt;/span> &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="files">Files&lt;/h3>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">find ./self-hosted-21.9.0 -type f -exec chmod &lt;span class="m">777&lt;/span> &lt;span class="o">{}&lt;/span> &lt;span class="se">\;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
 &lt;/div>&lt;h2 id="copy-the-configenv-files-to-the-new-version-directory">Copy the config/env files to the new version directory&lt;/h2>
 &lt;p>These are the config files. It&amp;rsquo;s not bad to compare the old and new config files before moving, to make sure the formats are same.&lt;/p>
 &lt;ul>
