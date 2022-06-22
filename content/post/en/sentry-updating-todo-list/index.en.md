@@ -36,20 +36,6 @@ Supposing the next one is `21.9.0`:
 wget -qO- https://github.com/getsentry/self-hosted/archive/refs/tags/21.9.0.tar.gz | tar xvz
 ```
 
-## Change the permissions of all files & directories
-
-### Directories
-
-```shell
-find ./self-hosted-21.9.0 -type d -exec chmod 777 {} \;
-```
-
-### Files
-
-```shell
-find ./self-hosted-21.9.0 -type f -exec chmod 777 {} \;
-```
-
 ## Copy the config/env files to the new version directory
 
 These are the config files. It's not bad to compare the old and new config files before moving, to make sure the formats are same.
