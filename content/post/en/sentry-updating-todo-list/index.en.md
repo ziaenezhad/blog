@@ -36,6 +36,12 @@ Supposing the next one is `21.9.0`:
 wget -qO- https://github.com/getsentry/self-hosted/archive/refs/tags/21.9.0.tar.gz | tar xvz
 ```
 
+And go to the directory:
+
+```shell
+cd ./selfhosted-21.9.0
+```
+
 ## Copy the config/env files to the new version directory
 
 These are the config files. It's not bad to compare the old and new config files before moving, to make sure the formats are same.
