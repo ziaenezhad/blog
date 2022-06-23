@@ -35,6 +35,9 @@
 &lt;ul>
 &lt;li>&lt;code>sentry/config.yml&lt;/code>&lt;/li>
 &lt;li>&lt;code>sentry/sentry.conf.py&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;p>Also you should update the values of the env file. Note that you shouldn&amp;rsquo;t copy entire values of the prev values, while it includes the docker image tags too.&lt;/p>
+&lt;ul>
 &lt;li>&lt;code>.env&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;h2 id="run-the-installation-script">Run the installation script&lt;/h2>
