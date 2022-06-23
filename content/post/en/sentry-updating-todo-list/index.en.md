@@ -48,6 +48,9 @@ These are the config files. It's not bad to compare the old and new config files
 
 * `sentry/config.yml`
 * `sentry/sentry.conf.py`
+
+Also you should update the values of the env file. Note that you shouldn't copy entire values of the prev values, while it includes the docker image tags too.
+
 * `.env`
 
 ## Run the installation script
