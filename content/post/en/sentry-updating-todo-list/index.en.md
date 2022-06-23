@@ -39,7 +39,7 @@ wget -qO- https://github.com/getsentry/self-hosted/archive/refs/tags/21.9.0.tar.
 And go to the directory:
 
 ```shell
-cd ./selfhosted-21.9.0
+cd ./self-hosted-21.9.0
 ```
 
 ## Copy the config/env files to the new version directory
