@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer on Sajjad Shirazi</title><link>https://sajjadshirazi.ir/en/tags/developer/</link><description>Recent content in Developer on Sajjad Shirazi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 04 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://sajjadshirazi.ir/en/tags/developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Windows installation TODO list for developers</title><link>https://sajjadshirazi.ir/en/p/windows-installation-todo-list-for-developers/</link><pubDate>Mon, 04 Jul 2022 00:00:00 +0000</pubDate><guid>https://sajjadshirazi.ir/en/p/windows-installation-todo-list-for-developers/</guid><description>&lt;img src="https://sajjadshirazi.ir/en/p/windows-installation-todo-list-for-developers/cover.jpg" alt="Featured image of post Windows installation TODO list for developers" />&lt;h2 id="fix-git-end-of-line-issue">Fix Git &amp;ldquo;End Of Line&amp;rdquo; issue&lt;/h2>
+&lt;p>The culprit is git, a configuration property of &lt;code>core.autocrlf&lt;/code>&lt;/p>
+&lt;p>For historical reasons, the line breaks of the text file on windows and linux are different.&lt;/p>
+&lt;ul>
+&lt;li>Windows At the time of line break, carriage return is used at the same time &lt;code>CR&lt;/code>(carriage-return character) and line breaks &lt;code>LF&lt;/code>(linefeed character)&lt;/li>
+&lt;li>Mac and Linux only use the newline character &lt;code>LF&lt;/code>&lt;/li>
+&lt;li>Old version of Mac uses carriage return &lt;code>CR&lt;/code>
+Therefore, there will be incompatibility problems when text files are created and used in different systems.&lt;/li>
+&lt;/ul>
+&lt;p>When I clone code on Windows, autocrlf is true as default and then each line of the file is automatically converted to &lt;code>CRLF&lt;/code>. If you do not make any changes to the file, eslint delete &lt;code>CR&lt;/code> by pre-commit since git automatically convert &lt;code>CRLF&lt;/code> to &lt;code>LF&lt;/code>.&lt;/p>
+&lt;p>So, after global configuration, you need to pull the code again.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">git config --global core.autocrlf &lt;span class="nb">false&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Done 🙂&lt;/p></description></item></channel></rss>
