@@ -10,7 +10,7 @@ Through the dashboard, we can get all the values collected by Prometheus and mak
 >Grafana&lt;/a>, an open-source web application for analytics and data visualization. Grafana enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored. Grafana provides you with tools to turn your time-series database (Prometheus in this case) data into insightful graphs and visualizations.&lt;/p>
 &lt;h3 id="pushgateway">Pushgateway&lt;/h3>
 &lt;p>As discussed above, Prometheus scrapes data from your applications and services at regular intervals. but what if those intervals are still too slow to capture valuable information? Many short-lived and batch jobs complete so quickly that their lifespans are shorter than the Prometheus scrape interval itself, making it tricky or impossible to capture metrics from them at runtime.&lt;/p>
-&lt;p>Or maybe what if the metrics source doesn&amp;rsquo;t have a valid address to scrape by prometheus, then we will need to send metrics from the source instead.&lt;/p>
+&lt;p>Or maybe what if the source doesn&amp;rsquo;t have a valid address to scrape by prometheus, then we will need to send metrics from the source instead.&lt;/p>
 &lt;p>&lt;a class="link" href="https://github.com/prometheus/pushgateway" target="_blank" rel="noopener"
 >Prometheus&lt;/a> Pushgateway sounds like a tremendously useful tool for capturing data from jobs that are difficult to scrape.&lt;/p>
 &lt;h2 id="setup-using-docker-compose">Setup using Docker Compose&lt;/h2>
