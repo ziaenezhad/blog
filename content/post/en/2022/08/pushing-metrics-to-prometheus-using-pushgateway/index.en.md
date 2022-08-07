@@ -2,7 +2,7 @@
 title: Pushing metrics to Prometheus using Pushgateway
 date: 2022-08-07
 image: cover.jpg
-description: Prometheus scrapes data from your applications and services at regular intervals. but what if those intervals are still too slow to capture valuable information? Or maybe what if the metrics source doesn't have a valid address to scrape by Prometheus, then we will need to send metrics from the source instead.
+description: Prometheus scrapes data from your applications and services at regular intervals. but what if those intervals are still too slow to capture valuable information? Or maybe what if the source doesn't have a valid address to scrape by Prometheus, then we will need to send metrics from the source instead.
 
 tags: [
   "Docker",
@@ -34,7 +34,7 @@ Beside of Prometheus, for displaying metrics and data in a human-readable format
 
 As discussed above, Prometheus scrapes data from your applications and services at regular intervals. but what if those intervals are still too slow to capture valuable information? Many short-lived and batch jobs complete so quickly that their lifespans are shorter than the Prometheus scrape interval itself, making it tricky or impossible to capture metrics from them at runtime.
 
-Or maybe what if the metrics source doesn't have a valid address to scrape by prometheus, then we will need to send metrics from the source instead.
+Or maybe what if the source doesn't have a valid address to scrape by prometheus, then we will need to send metrics from the source instead.
 
 [Prometheus](https://github.com/prometheus/pushgateway) Pushgateway sounds like a tremendously useful tool for capturing data from jobs that are difficult to scrape.
 
