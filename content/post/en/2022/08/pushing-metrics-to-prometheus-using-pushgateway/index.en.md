@@ -28,7 +28,9 @@ The Prometheus server, which acts as the system’s “brain” by collecting va
 
 ### Grafana
 
-Beside of Prometheus, for displaying metrics and data in a human-readable format. In addition to native Prometheus visualization, many Prometheus users integrate the tool with [Grafana](https://grafana.com/), an open-source web application for analytics and data visualization. Grafana enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored. Grafana provides you with tools to turn your time-series database (Prometheus in this case) data into insightful graphs and visualizations.
+Beside of Prometheus, for displaying metrics and data in a human-readable format. In addition to native Prometheus visualization, many Prometheus users integrate the tool with [Grafana](https://grafana.com/), an open-source web application for analytics and data visualization.
+
+Grafana enables you to query, visualize, alert on, and explore your metrics, logs, and traces wherever they are stored. Grafana provides you with tools to turn your time-series database (Prometheus in this case) data into insightful graphs and visualizations.
 
 ### Pushgateway
 
