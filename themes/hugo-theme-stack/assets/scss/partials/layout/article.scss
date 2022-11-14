@@ -202,7 +202,7 @@
     line-height: var(--article-line-height);
 
     & > p {
-        margin: 1.5em 0;
+        margin: 0.33em 0;
     }
 
     h1,
@@ -385,5 +385,11 @@
         margin-left: calc((var(--card-padding)) * -1);
         margin-right: calc((var(--card-padding)) * -1);
         width: calc(100% + var(--card-padding) * 2);
+    }
+}
+
+.article-details {
+    .article-content {
+        padding: 0px !important;
     }
 }

@@ -44,6 +44,10 @@
         {{ end }}
     </footer>
     {{ end }}
+    
+    {{ if .Params.noReadMore }}
+    {{ partialCached "article/components/content" . .RelPermalink }}
+    {{ end }}
 
     {{ if .IsTranslated }}
         <footer class="article-translations">
