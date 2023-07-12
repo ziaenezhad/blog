@@ -2,7 +2,8 @@
 title: درباره اهمیّت و آداب انفاق
 date: 2023-07-04
 description: تقریر سخنرانی بعد از نماز ظهر مسجد دانشگاه شیراز به مناسبت تولد امام هادی (ع)
-noReadMore: true
+image: cover.jpg
+noReadMore: false
 categories: [
   "diary"
 ]

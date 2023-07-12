@@ -2,7 +2,8 @@
 title: پیرامون کلمه طیب و خبیث
 date: 2023-07-01
 description: تقریر سخنرانی استاد رحیمی به مناسبت میلاد امام رضا (ع)
-noReadMore: true
+image: cover.jpg
+noReadMore: false
 categories: [
   "diary"
 ]
