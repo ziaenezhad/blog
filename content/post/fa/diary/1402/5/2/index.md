@@ -1,6 +1,7 @@
 ---
 title: بیابان
 date: 2023-07-28
+cover: neom-AC3T7tvwPrY-unsplash.jpg
 noReadMore: true
 tags: [
   "شعر",
