@@ -1,5 +1,5 @@
 ---
-title: مراقبت از ماندن با خود
+title: ماندن با خود
 date: 2023-08-11
 image: erdei-greta-xDISpWA_CtU-unsplash.jpg
 noReadMore: true
