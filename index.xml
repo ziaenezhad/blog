@@ -1,4 +1,157 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>رفتن</title><link>https://sajjadshirazi.ir/</link><description>Recent content on رفتن</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 27 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sajjadshirazi.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>سراب اصلاح دین</title><link>https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><guid>https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/</guid><description>&lt;img src="https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/mathieu-perrier-YY8TCS9Px4c-unsplash.jpg" alt="Featured image of post سراب اصلاح دین" />&lt;p>یکی از بازی هایی که آدم با خودش می کند تا زیر بار مراقبه و تغییر نرود، اصلاح دین است.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>رفتن</title><link>https://sajjadshirazi.ir/</link><description>Recent content on رفتن</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 30 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://sajjadshirazi.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>حلّ معادله ریاضی درجه دوم</title><link>https://sajjadshirazi.ir/p/%D8%AD%D9%84%D9%91-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D9%87-%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C-%D8%AF%D8%B1%D8%AC%D9%87-%D8%AF%D9%88%D9%85/</link><pubDate>Wed, 30 Aug 2023 00:00:00 +0000</pubDate><guid>https://sajjadshirazi.ir/p/%D8%AD%D9%84%D9%91-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D9%87-%D8%B1%DB%8C%D8%A7%D8%B6%DB%8C-%D8%AF%D8%B1%D8%AC%D9%87-%D8%AF%D9%88%D9%85/</guid><description>&lt;h2 id="مدخل">مدخل&lt;/h2>
+&lt;p>حرکت شناسی یا سینماتیک شاخه ای از فیزیک است که به طبقه بندی و مقایسه حرکت ها می پردازد. نوع خاصی از حرکت در یک بعد، حرکت با شتاب ثابت است. سقوط آزاد با کمی مسامحه و با صرف نظر کردن از وجود هوا، مشهود ترین مصداق حرکت با شتاب ثابت است.&lt;/p>
+&lt;p>اگر با داشتن سرعت اولیه و در مسائل سقوط آزاد در پی پیدا کردن زمان قرار گرفتن ذره در یک ارتفاع بخصوص باشیم از فرمول ذیل استفاده می کنیم:&lt;/p>
+&lt;div dir="ltr">
+$$
+x=\frac{1}{2}at^{2}+v_{0}t+x_{0}
+$$
+&lt;/div>
+&lt;p>که در آن شتاب معادل گرانش در نزدیکی سطح زمین و معادل است با منفی 9.81 متر بر مربع ثانیه:&lt;/p>
+&lt;div dir="ltr">
+$$
+g=-9.81\frac{m}{s^{2}}
+$$
+&lt;/div>
+از آنجایی که - چنانچه گفته شد- در مساله مفروض سایر متغیر ها به جز زمان معلوم است، معادله فوق به یک معادله مرتبه 2 تبدیل می شود:
+&lt;div dir="ltr">
+$$
+4.9t^{2} - v_{0}t + y = 0
+$$
+&lt;/div>
+&lt;p>و اینجاست که برای کشف مقدار زمان لازم است تا روش حل معادلات مرتبه دو را بدانیم.&lt;/p>
+&lt;h2 id="معادله-ریاضی-درجه-دوم">معادله ریاضی درجه دوم&lt;/h2>
+&lt;p>در جبر، معادله درجه دوم یا مربعی (به انگلیسی: Quadratic Equation)، هر معادله تک متغیره ای ست که بتوان آن را به صورت فرم استاندارد زیر نوشت:&lt;/p>
+&lt;div dir="ltr">
+$$
+ax^{2} + bx + c = 0
+$$
+&lt;/div>
+&lt;p>و جواب های آن به طور کلی از فرمول زیر بدست می آیند:&lt;/p>
+&lt;div dir="ltr">
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac} }{2a}
+$$
+&lt;/div>
+&lt;p>این فرمول کار می کند. امّا واقعا چگونه چنین چیز پیچیده ای بوجود آمده است؟&lt;/p>
+&lt;h2 id="اثبات-روش-کلی-حل-معادله-درجه-دوم">اثبات روش کلی حل معادله درجه دوم&lt;/h2>
+&lt;ol>
+&lt;li>داریم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+ax^{2} + bx + c = 0
+$$
+&lt;/div>
+&lt;ol start="2">
+&lt;li>دو طرف را در مقدار $ 4a $ ضرب می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+4a^{2}x^{2} + 4abx + 4ac = 0
+$$
+&lt;/div>
+&lt;ol start="3">
+&lt;li>از دو طرف $ 4ac $ را کم می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+4a^{2}x^{2} + 4abx = - 4ac
+$$
+&lt;/div>
+&lt;ol start="4">
+&lt;li>به دو طرف &lt;span dir="ltr">$ b^{2} $&lt;/span> را اضاف می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+4a^{2}x^{2} + 4abx + b^{2} = b^{2} - 4ac
+$$
+&lt;/div>
+&lt;ol start="5">
+&lt;li>اتحاد مربع دو جمله ای یکی از معروف ترین اتحاد های ریاضی است که به این صورت برقرار است:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">$ (A+B)^2=(A)^2+2(A)(B)+(B)^2\,$&lt;/div>
+&lt;ol start="6">
+&lt;li>اتحاد دوجمله ای را بر سمت چپ معادله اعمال می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+(2ax + b)^{2} = b^{2} - 4ac
+$$
+&lt;/div>
+&lt;ol start="7">
+&lt;li>از دو طرف جذر می گیریم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+2ax + b = \pm \sqrt{b^{2} - 4ac}
+$$
+&lt;/div>
+&lt;ol start="8">
+&lt;li>از دو طرف $ b $ را کم می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+2ax = - b \pm \sqrt{b^{2} - 4ac}
+$$
+&lt;/div>
+&lt;ol start="8">
+&lt;li>دو طرف را بر $ 2a $ تقسیم می کنیم:&lt;/li>
+&lt;/ol>
+&lt;div dir="ltr">
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac} }{2a}
+$$
+&lt;/div>
+&lt;h2 id="ماشین-حساب">ماشین حساب&lt;/h2>
+&lt;p>مقادیر a و b و c را وارد کنید:&lt;/p>
+&lt;script>
+function calculate() {
+const a = +document.getElementById('num_a').value;
+const b = +document.getElementById('num_b').value;
+const c = +document.getElementById('num_c').value;
+const x1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
+const x2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
+document.getElementById('dom_x1').textContent = isNaN(x1) ? 'جوابی وجود ندارد' : x1;
+document.getElementById('dom_x2').textContent = isNaN(x2) ? 'جوابی وجود ندارد' : x2;
+return false;
+}
+&lt;/script>
+&lt;form class="calculator" dir="ltr" onsubmit="return calculate()">
+&lt;style>
+form.calculator {
+padding: 32px;
+background-color: #ececec;
+text-align: center;
+border-radius: 16px;
+}
+form.calculator hr{
+margin: 16px auto;
+width: 100%
+}
+form.calculator input {
+width: 64px
+}
+form.calculator button {
+width: 100%;
+background-color: lightgray;
+padding: 16px;
+}
+&lt;/style>
+&lt;input id="num_a" type="number" placeholder="a" required="true" step=0.01>&lt;/input>
+$ x^{2} + $
+&lt;input id="num_b" type="number" placeholder="b" required="true" step=0.01>&lt;/input>
+$ x + $
+&lt;input id="num_c" type="number" placeholder="c" required="true" step=0.01>&lt;/input>
+$ = 0 $
+&lt;hr/>
+&lt;button type="submit">محاسبه&lt;/button>
+&lt;/form>
+&lt;p>نتیجه:&lt;/p>
+&lt;form class="calculator" dir="ltr">
+$ x_{1} = $ &lt;b id="dom_x1">?&lt;/b>
+&lt;br/>
+$ x_{2} = $ &lt;b id="dom_x2">?&lt;/b>
+&lt;/form></description></item><item><title>سراب اصلاح دین</title><link>https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/</link><pubDate>Sun, 27 Aug 2023 00:00:00 +0000</pubDate><guid>https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/</guid><description>&lt;img src="https://sajjadshirazi.ir/p/%D8%B3%D8%B1%D8%A7%D8%A8-%D8%A7%D8%B5%D9%84%D8%A7%D8%AD-%D8%AF%DB%8C%D9%86/mathieu-perrier-YY8TCS9Px4c-unsplash.jpg" alt="Featured image of post سراب اصلاح دین" />&lt;p>یکی از بازی هایی که آدم با خودش می کند تا زیر بار مراقبه و تغییر نرود، اصلاح دین است.&lt;/p>
 &lt;p>وقتی می بینی دارد از دین سوء استفاده ای می شود، یا خرافه ای به خدا یا دوستانش نسبت داده می شود، خونت به جوش می آید.&lt;/p>
 &lt;p>تو که هنوز کیسه بندگی به تن خود نکشیده ای و چرک شرک و دنبال هوا رفتن را از تن نشسته ای، غیرتی می شوی که چرا دیگری در این رود زلال، انقدر ناقص و چپکی طهارت می کند.&lt;/p>
 &lt;p>خادم پاکباز مسجد، حین کار با رفیقش، آرام می گفت: «یک جمله امام که عالم محضر خداست؛ مرا متوجه وضع جهان کرد.»&lt;/p>
