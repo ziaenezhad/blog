@@ -9,7 +9,7 @@ tags: [
   "ماشین حساب",
 ]
 categories: [
-  "projects"
+  "village"
 ]
 ---
 

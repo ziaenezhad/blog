@@ -11,7 +11,7 @@ tags: [
   "پالونیا",
 ]
 categories: [
-  "projects"
+  "village"
 ]
 ---
 
