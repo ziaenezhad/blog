@@ -42,7 +42,7 @@ Or maybe what if the source doesn't have a valid address to scrape by prometheus
 
 ## Setup using Docker Compose
 
-> 💡 You can find the source code in [the Github repository](https://github.com/sajjad-shirazy/prometheus-stack)
+> 💡 You can find the source code in [the Github repository](https://github.com/ziaenezhad/prometheus-stack)
 
 1. Create the working directory
 

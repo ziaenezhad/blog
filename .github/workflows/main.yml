@@ -22,10 +22,10 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           personal_token: ${{ secrets.DEPLOY_TOKEN }}
-          external_repository: sajjad-shirazy/blog
+          external_repository: ziaenezhad/blog
           publish_dir: ./public
           #   keep_files: true
-          user_name: sajjad-shirazy
+          user_name: ziaenezhad
           user_email: shirazy.sajjad@gmail.com
           publish_branch: live
-          cname: sajjadshirazi.ir
+          cname: ziaenezhad.ir

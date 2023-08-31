@@ -1,4 +1,4 @@
-baseurl: https://sajjadshirazi.ir
+baseurl: https://ziaenezhad.ir
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -12,8 +12,7 @@ languages:
     weight: 1
   en:
     languageName: English
-    title: Sajjad Shirazi
-    subTitle: 'kkjhk'
+    title: Sajjad Ziaenezhad Shirazi
     weight: 2
 
 # Change it to your Disqus shortname before using
@@ -53,7 +52,7 @@ params:
     local: true
     # emoji: 🍥
     subtitle: 
-      fa: ماجراهای درون، در معرض عالم بیرون
+      fa: بلاگ سجاد ضیاء نژاد شیرازی
       en: A personal blog about computer science and life.
     avatar:
       enabled: true
@@ -73,7 +72,7 @@ params:
     provider: utterances
 
     utterances:
-      repo: sajjad-shirazy/blog
+      repo: ziaenezhad/blog
       issueTerm: pathname
       label: comment
 
@@ -128,19 +127,19 @@ menu:
   social:
     - identifier: instagram
       name: Instagram
-      url: https://www.instagram.com/shirazy_sajjad/
+      url: https://www.instagram.com/sajjad_ziaenezhad/
       params:
         icon: brand-insta
 
     - identifier: github
       name: GitHub
-      url: https://github.com/sajjad-shirazy
+      url: https://github.com/ziaenezhad
       params:
         icon: brand-github
 
     - identifier: twitter
       name: Twitter
-      url: https://twitter.com
+      url: https://twitter.com/ziaenezhad
       params:
           icon: brand-twitter
 
