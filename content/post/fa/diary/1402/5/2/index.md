@@ -8,7 +8,7 @@ tags: [
   "سیدالشهدا",
 ]
 categories: [
-  "diary"
+  "poetry"
 ]
 ---
 ماییم و شب سیاه گمراهی
