@@ -52,7 +52,7 @@ params:
     local: true
     # emoji: 🍥
     subtitle: 
-      fa: بلاگ سجاد ضیاء نژاد شیرازی
+      fa: بلاگ سجاد ضیاء نژاد
       en: A personal blog about computer science and life.
     avatar:
       enabled: true

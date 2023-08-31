@@ -1,6 +1,6 @@
 ---
 title: "ریاضیات"
-description: "گزارش هایی پیرامون تلاشم برای بازخوانی ریاضی"
+description: "کنجکاوی های من درباره ریاضیات"
 slug: "math"
 image: cover.jpg
 ---
