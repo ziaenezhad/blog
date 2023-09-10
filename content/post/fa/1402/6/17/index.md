@@ -2,7 +2,7 @@
 title: تمهیدی برای برگزاری جلسات قرآن
 date: 2023-09-08
 image: mehmet-subasi-TTvbft-Nusw-unsplash.jpg
-noReadMore: true
+noReadMore: false
 tags: [
   "قرآن",
 ]
