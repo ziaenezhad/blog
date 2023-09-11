@@ -3,7 +3,6 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: رفتن
-disqusShortname: ziaenezhad
 
 languages:
   fa:
@@ -17,7 +16,7 @@ languages:
     weight: 2
 
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: ziaenezhad
 
 # GA Tracking ID
 googleAnalytics:
