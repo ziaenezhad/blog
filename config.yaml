@@ -69,12 +69,8 @@ params:
 
   comments:
     enabled: true
-    provider: utterances
-
-    utterances:
-      repo: ziaenezhad/blog
-      issueTerm: pathname
-      label: comment
+    provider: disqus
+    disqusShortname: ziaenezhad
 
   widgets:
     homepage:
