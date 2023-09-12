@@ -43,7 +43,7 @@ required="true"
 &lt;hr/>
 &lt;h3>مقدار صحیح:&lt;/h3>
 &lt;p dir="ltr">
-&lt;b>3.141592653589793&lt;/b>
+&lt;b>{{PI}}&lt;/b>
 &lt;/p>
 &lt;h3>نتیجه:&lt;/h3>
 &lt;p dir="ltr">

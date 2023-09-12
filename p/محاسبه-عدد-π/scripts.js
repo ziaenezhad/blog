@@ -1,5 +1,11 @@
 // @ts-check
-const piDigits = Math.PI.toString().replace(".", "").split("");
+const PRECISION = 60;
+// @ts-ignore
+Decimal.set({ precision: PRECISION });
+// @ts-ignore
+const PI = Decimal.acos(-1);
+
+const piDigits = PI.toString().replace(".", "").split("");
 function calculateAccuracy(value) {
   const valueDigits = value.toString().replace(".", "").split("");
   let correctDigits = 0;
@@ -18,17 +24,21 @@ class GregorySeriesCalculator {
     step: 0,
     steps: "100000",
     delay: "0",
-    result: 0,
+    result: '?',
     progress: "0%",
     accuracy: "?",
-    PI: Math.PI.toString(),
+    PI: PI.toString(),
   };
 
   static async calculate() {
-    let pi = 0;
+    // @ts-ignore
+    let pi = Decimal(0);
     for (let i = 1; i <= +this.data.steps; i++) {
-      pi += (4 * Math.pow(-1, i + 1)) / (2 * i - 1);
-      this.data.result = pi;
+      pi = pi.plus(
+        // @ts-ignore      
+        Decimal(4 * Math.pow(-1, i + 1)).div(2 * i - 1)
+      );
+      this.data.result = pi.toString();
       this.data.progress = `${((i * 100) / +this.data.steps).toFixed()}%`;
       this.data.accuracy = (calculateAccuracy(pi) * 100).toFixed(2) + "%";
       this.data.step = i;
@@ -43,33 +53,38 @@ class GaussSeriesCalculator {
   static data = {
     step: 0,
     steps: "5",
-    delay: "1000",
+    delay: "500",
     result: "?",
     progress: "0%",
     accuracy: "?",
-    PI: Math.PI.toString(),
+    PI: PI.toString(),
   };
 
   static async calculate() {
-    let a0 = 1;
-    let b0 = 1 / Math.sqrt(2);
-    let t0 = 1 / 4;
-    let p0 = 1;
+    // @ts-ignore
+    let ao = Decimal(1);
+    // @ts-ignore
+    let bo = Decimal(1).div(Decimal(2).sqrt());
+    // @ts-ignore
+    let to = Decimal(1).div(4);
+    // @ts-ignore
+    let po = Decimal(1);
     let an;
     let bn;
     let tn;
     let pn;
-    let pi = 0;
+    let pi;
     for (let i = 1; i <= +this.data.steps; i++) {
-      an = (a0 + b0) / 2;
-      bn = Math.sqrt(a0 * b0);
-      tn = t0 - p0 * Math.pow(a0 - an, 2);
-      pn = 2 * p0;
-      pi = Math.pow(an + bn, 2) / (4 * tn);
-      a0 = an;
-      b0 = bn;
-      t0 = tn;
-      p0 = pn;
+      an = ao.plus(bo).div(2);
+      bn = ao.times(bo).sqrt();
+      tn = to.minus(po.times(ao.minus(an).pow(2)));
+      pn = po.times(2);
+      pi = an.plus(bn).pow(2).div(tn.times(4));
+      console.log(pi.toString());
+      ao = an;
+      bo = bn;
+      to = tn;
+      po = pn;
       this.data.result = pi.toString();
       this.data.progress = `${((i * 100) / +this.data.steps).toFixed()}%`;
       this.data.accuracy = (calculateAccuracy(pi) * 100).toFixed(2) + "%";
