@@ -58,7 +58,7 @@ $$
   <hr/>
   <h3>مقدار صحیح:</h3>
   <p dir="ltr">
-    <b>3.141592653589793</b>
+    <b>{{PI}}</b>
   </p>
   <h3>نتیجه:</h3>
   <p dir="ltr">
@@ -104,7 +104,6 @@ $$
 {\displaystyle \pi \approx {\frac {(a_{n+1}+b_{n+1})^{2}}{4t_{n+1}}}.}
 $$
 </div>
-
 
 ### ماشین حساب
 
@@ -152,7 +151,6 @@ $$
     <b>{{accuracy}}</b>
   </p>
 </form>
-
 
 <script src="//cdn.jsdelivr.net/gh/ranaroussi/pointjs/dist/point.js"></script>
 <script src="https://unpkg.com/decimal.js@10.2.0/decimal.min.js"></script>
