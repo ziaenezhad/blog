@@ -1,0 +1,22 @@
+form.calculator {
+  padding: 32px;
+  background-color: #ececec;
+  /* text-align: center; */
+  border-radius: 6px;
+  border: 1px black dashed;
+}
+form.calculator hr {
+  margin: 16px auto;
+  width: 100%;
+}
+form.calculator input {
+  width: 100%;
+  font-size: xx-large;
+  direction: ltr;
+}
+form.calculator button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 12px;
+  cursor: pointer;
+}
