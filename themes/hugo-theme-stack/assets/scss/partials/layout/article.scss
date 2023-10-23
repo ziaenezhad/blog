@@ -165,13 +165,20 @@
         }
     }
 }
+[dir="rtl"] {    
+    .related-contents {
+        & > .flex {
+            float: right;
+        }
+    }
+}
 
 .related-contents {
     overflow-x: auto;
     padding-bottom: 15px;
 
     & > .flex {
-        float: left;
+        float: right;
     }
 
     article {
