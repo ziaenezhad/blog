@@ -134,7 +134,7 @@ menu:
 
     - identifier: goodreads
       name: GoodReads
-      url: https://www.goodreads.com/user/show/20217782-sajjad-ziaenezhad
+      url: https://www.goodreads.com/ziaenezhad
       params:
           icon: books
 
