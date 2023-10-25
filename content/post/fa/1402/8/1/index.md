@@ -1,6 +1,6 @@
 ---
 title: سایلاس مارنر
-description: گزارش مطالعه قصّه ی مرد بافنده
+description: گزارش مطالعه قصّه ی مرد بافنده ...
 date: 2023-10-23
 image: Silas-Marner-2.jpg
 noReadMore: false

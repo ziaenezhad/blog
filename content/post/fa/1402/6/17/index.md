@@ -7,7 +7,7 @@ tags: [
   "قرآن",
 ]
 categories: [
-  "diary"
+  "religion"
 ]
 ---
 
