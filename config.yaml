@@ -132,11 +132,11 @@ menu:
       params:
         icon: brand-github
 
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com/ziaenezhad
+    - identifier: goodreads
+      name: GoodReads
+      url: https://www.goodreads.com/user/show/20217782-sajjad-ziaenezhad
       params:
-          icon: brand-twitter
+          icon: books
 
 related:
   includeNewer: true
