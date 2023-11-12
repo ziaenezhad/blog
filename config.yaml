@@ -138,6 +138,12 @@ menu:
       params:
           icon: books
 
+    - identifier: Pintrest
+      name: pintrest
+      url: https://www.pinterest.com/ziaenejad/
+      params:
+          icon: pintrest
+
 related:
   includeNewer: true
   threshold: 60
