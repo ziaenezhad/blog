@@ -48,7 +48,7 @@ menu:
 
 این پروژه به کاربران اجازه می ده قطعات موسیقی مورد علاقه شون رو از سایت [Souncloud](https://soundcloud.com) به طور مستقیم و با ترافیک نیم بهای داخلی دانلود کنند.
 
-این پروژه با کمک همکار عزیزم [علیرضا امامی](https://github.com/alireza-emami) و در [کاکو سافت](https://github.com/kako-soft) ساخته شد:
+این پروژه با کمک همکار عزیزم [علیرضا امامی](https://github.com/alireza-emami) در [کاکو سافت](https://github.com/kako-soft) ساخته شد:
 
 [https://soundclouder.ir](https://soundclouder.ir)
 
