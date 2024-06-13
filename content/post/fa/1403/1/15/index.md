@@ -1,6 +1,6 @@
 ---
 title: چهارشنیه
-date: 2024-04-3
+date: 2024-04-03
 noReadMore: true
 tags: []
 categories: ['village']
