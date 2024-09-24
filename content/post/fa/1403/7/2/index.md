@@ -4,7 +4,7 @@ description: درباره مستند «کودک سرباز» ساخته پگاه
 date: 2024-09-24
 noReadMore: true
 image: cover.png
-tags: ['جنگ']
+tags: ['جنگ', 'کودک سرباز']
 categories: ['diary']
 ---
 
