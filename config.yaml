@@ -7,11 +7,11 @@ languages:
   fa:
     languageName: فارسی
     languagedirection: rtl
-    title: رفتن
+    title: رَفتن
     weight: 1
   en:
     languageName: English
-    title: Sajjad Ziaenezhad Shirazi
+    title: To pass
     weight: 2
 
 # Change it to your Disqus shortname before using
@@ -52,7 +52,10 @@ params:
     local: true
     # emoji: 🍥
     subtitle: 
-      fa: بلاگ سجاد ضیاء نژاد
+      fa: بلاگ سَجّادِضِیاءْنِژادْ
+      en: Sajjad Ziaenejad Shirazi
+    description: 
+      fa: برنامه نویس و دانشجوی دکتری فلسفه و کلام دانشگاه شیراز
       en: A personal blog about computer science and life.
     avatar:
       enabled: true
