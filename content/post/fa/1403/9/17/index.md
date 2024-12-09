@@ -1,6 +1,6 @@
 ---
 title: مرگ
-date: 2024-11-07
+date: 2024-12-07
 noReadMore: true
 tags: ['من']
 categories: ['diary']
