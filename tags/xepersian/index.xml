@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>XePersian on رَفتن</title><link>https://ziaenezhad.ir/tags/xepersian/</link><description>Recent content in XePersian on رَفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/tags/xepersian/index.xml" rel="self" type="application/rss+xml"/><item><title>تفاوت BibTeX و BibLaTeX</title><link>https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/cover.jpg" alt="Featured image of post تفاوت BibTeX و BibLaTeX" />&lt;p>در فرآیند نگارش مقالات علمی با استفاده از LaTeX، مدیریت منابع و مراجع اهمیت زیادی دارد. دو ابزار پرکاربرد در این زمینه، &lt;strong>BibTeX&lt;/strong> و &lt;strong>BibLaTeX&lt;/strong> هستند. در این مطلب به بررسی تفاوت‌های این دو ابزار پرداخته و نمونه کدهای مورد نیاز برای یک مقاله فارسی با استفاده از XePersian ارائه می‌دهیم.&lt;/p>
+&lt;h2 id="تفاوتهای-اصلی-bibtex-و-biblatex">تفاوت‌های اصلی BibTeX و BibLaTeX&lt;/h2>
+&lt;h3 id="bibtex">BibTeX&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>قدمت و سادگی&lt;/strong>: BibTeX ابزار قدیمی‌تری است که به طور گسترده‌ای در جوامع علمی استفاده می‌شود. ساده و قابل فهم برای کاربران تازه‌کار است.&lt;/li>
+&lt;li>&lt;strong>قالب‌بندی محدود&lt;/strong>: امکانات قالب‌بندی آن محدودتر بوده و تغییرات گسترده در سبک‌های مراجع نیازمند تغییر در فایل‌های &lt;code>.bst&lt;/code> است.&lt;/li>
+&lt;li>&lt;strong>پشتیبانی کمتر از زبان‌های غیر لاتین&lt;/strong>: پشتیبانی از زبان‌هایی مانند فارسی محدودتر است و ممکن است مشکلاتی در نمایش صحیح منابع ایجاد کند.&lt;/li>
+&lt;/ul>
+&lt;h3 id="biblatex">BibLaTeX&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>امکانات پیشرفته&lt;/strong>: BibLaTeX با امکانات بیشتری برای مدیریت مراجع، از جمله پشتیبانی بهتر از زبان‌های مختلف، انعطاف‌پذیری بیشتر در قالب‌بندی و قابلیت‌های سفارشی‌سازی.&lt;/li>
+&lt;li>&lt;strong>پشتیبانی از Unicode&lt;/strong>: به طور پیش‌فرض از Unicode پشتیبانی می‌کند که برای زبان‌هایی مانند فارسی بسیار مناسب است.&lt;/li>
+&lt;li>&lt;strong>یکپارچگی با XeLaTeX و LuaLaTeX&lt;/strong>: با سیستم‌های مدرن‌تر LaTeX مانند XePersian هماهنگی بهتری دارد.&lt;/li>
+&lt;/ul>
+&lt;h2 id="نمونه-کد-با-bibtex">نمونه کد با BibTeX&lt;/h2>
+&lt;p>در این نمونه، از BibTeX برای مدیریت منابع در یک مقاله فارسی با استفاده از XePersian استفاده شده است.&lt;/p>
+&lt;p>&lt;strong>فایل LaTeX (&lt;code>main.tex&lt;/code>)&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="k">\documentclass&lt;/span>&lt;span class="nb">{&lt;/span>article&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>xepersian&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>XB Niloofar&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\setlatintextfont&lt;/span>&lt;span class="nb">{&lt;/span>Times New Roman&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت برای متن لاتین
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>cite&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\begin&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\section&lt;/span>&lt;span class="nb">{&lt;/span>مقدمه&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">این یک نمونه متن است که در آن به منبعی &lt;span class="k">\cite&lt;/span>&lt;span class="nb">{&lt;/span>example&lt;span class="nb">}&lt;/span> اشاره شده است.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\bibliographystyle&lt;/span>&lt;span class="nb">{&lt;/span>unsrt&lt;span class="nb">}&lt;/span> &lt;span class="c">% انتخاب سبک مرجع
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\bibliography&lt;/span>&lt;span class="nb">{&lt;/span>references&lt;span class="nb">}&lt;/span> &lt;span class="c">% فایل منابع
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\end&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;strong>فایل منابع (&lt;code>references.bib&lt;/code>)&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bibtex" data-lang="bibtex">&lt;span class="line">&lt;span class="cl">&lt;span class="nc">@article&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">example&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">author&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{علی‌پور، علی}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">title&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{نمونه‌ای از یک مقاله فارسی}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">journal&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{مجله نمونه}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">year&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{۱۴۰۲}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">volume&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{۱۰}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">number&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{۲}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">pages&lt;/span> &lt;span class="p">=&lt;/span> &lt;span class="s">{۱-۱۰}&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="نمونه-کد-با-biblatex">نمونه کد با BibLaTeX&lt;/h2>
+&lt;p>در این نمونه، از BibLaTeX به همراه biber برای مدیریت منابع استفاده شده است.&lt;/p>
+&lt;p>&lt;strong>فایل LaTeX (main.tex)&lt;/strong>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="k">\documentclass&lt;/span>&lt;span class="nb">{&lt;/span>article&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>xepersian&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>XB Niloofar&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\setlatintextfont&lt;/span>&lt;span class="nb">{&lt;/span>Times New Roman&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت برای متن لاتین
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="na">[backend=biber,style=numeric,sorting=none]&lt;/span>&lt;span class="nb">{&lt;/span>biblatex&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\addbibresource&lt;/span>&lt;span class="nb">{&lt;/span>references.bib&lt;span class="nb">}&lt;/span> &lt;span class="c">% فایل منابع
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\begin&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\section&lt;/span>&lt;span class="nb">{&lt;/span>مقدمه&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">این یک نمونه متن است که در آن به منبعی &lt;span class="k">\cite&lt;/span>&lt;span class="nb">{&lt;/span>example&lt;span class="nb">}&lt;/span> اشاره شده است.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\printbibliography&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\end&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="نتیجهگیری">نتیجه‌گیری&lt;/h2>
+&lt;p>هر دو ابزار BibTeX و BibLaTeX برای مدیریت منابع در LaTeX کاربردی هستند، اما BibLaTeX با امکانات بیشتر و پشتیبانی بهتر از زبان‌های غیر لاتین مانند فارسی، انتخاب مناسبی برای مقالات مدرن و پیچیده‌تر به شمار می‌رود. انتخاب بین این دو ابزار بستگی به نیازهای خاص شما و میزان سفارشی‌سازی مورد نظر دارد.&lt;/p></description></item></channel></rss>
