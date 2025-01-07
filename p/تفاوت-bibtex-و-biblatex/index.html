@@ -34,9 +34,11 @@
 </span><span class=lnt>15
 </span><span class=lnt>16
 </span><span class=lnt>17
+</span><span class=lnt>18
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-latex data-lang=latex><span class=line><span class=cl><span class=k>\documentclass</span><span class=nb>{</span>article<span class=nb>}</span>
+</span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>\usepackage</span><span class=nb>{</span>xepersian<span class=nb>}</span>
-</span></span><span class=line><span class=cl><span class=k>\settextfont</span><span class=nb>{</span>XB Niloofar<span class=nb>}</span> <span class=c>% فونت دلخواه برای متن فارسی
+</span></span><span class=line><span class=cl><span class=k>\settextfont</span><span class=nb>{</span>Yas<span class=nb>}</span> <span class=c>% فونت دلخواه برای متن فارسی
 </span></span></span><span class=line><span class=cl><span class=c></span><span class=k>\setlatintextfont</span><span class=nb>{</span>Times New Roman<span class=nb>}</span> <span class=c>% فونت برای متن لاتین
 </span></span></span><span class=line><span class=cl><span class=c></span>
 </span></span><span class=line><span class=cl><span class=k>\usepackage</span><span class=nb>{</span>cite<span class=nb>}</span>
@@ -69,7 +71,15 @@
 </span></span><span class=line><span class=cl>  <span class=na>number</span> <span class=p>=</span> <span class=s>{۲}</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>  <span class=na>pages</span> <span class=p>=</span> <span class=s>{۱-۱۰}</span><span class=p>,</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
-</span></span></code></pre></td></tr></table></div></div><h2 id=نمونه-کد-با-biblatex>نمونه کد با BibLaTeX</h2><p>در این نمونه، از BibLaTeX به همراه biber برای مدیریت منابع استفاده شده است.</p><p><strong>فایل LaTeX (main.tex)</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span></span></code></pre></td></tr></table></div></div><h3 id=روش-کامپایل>روش کامپایل</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>xelatex main.tex
+</span></span><span class=line><span class=cl>bibtex main
+</span></span><span class=line><span class=cl>xelatex main.tex
+</span></span><span class=line><span class=cl>xelatex main.tex
+</span></span></code></pre></td></tr></table></div></div><p>خروجی فایل بالا را <a class=link href=./main.bibtex.pdf>اینجا</a> می توانید ببینید.</p><h2 id=نمونه-کد-با-biblatex>نمونه کد با BibLaTeX</h2><p>در این نمونه، از BibLaTeX به همراه biber برای مدیریت منابع استفاده شده است.</p><p><strong>فایل LaTeX (main.tex)</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
 </span><span class=lnt> 4
@@ -87,23 +97,31 @@
 </span><span class=lnt>16
 </span><span class=lnt>17
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-latex data-lang=latex><span class=line><span class=cl><span class=k>\documentclass</span><span class=nb>{</span>article<span class=nb>}</span>
-</span></span><span class=line><span class=cl><span class=k>\usepackage</span><span class=nb>{</span>xepersian<span class=nb>}</span>
-</span></span><span class=line><span class=cl><span class=k>\settextfont</span><span class=nb>{</span>XB Niloofar<span class=nb>}</span> <span class=c>% فونت دلخواه برای متن فارسی
-</span></span></span><span class=line><span class=cl><span class=c></span><span class=k>\setlatintextfont</span><span class=nb>{</span>Times New Roman<span class=nb>}</span> <span class=c>% فونت برای متن لاتین
-</span></span></span><span class=line><span class=cl><span class=c></span>
 </span></span><span class=line><span class=cl><span class=k>\usepackage</span><span class=na>[backend=biber,style=numeric,sorting=none]</span><span class=nb>{</span>biblatex<span class=nb>}</span>
 </span></span><span class=line><span class=cl><span class=k>\addbibresource</span><span class=nb>{</span>references.bib<span class=nb>}</span> <span class=c>% فایل منابع
 </span></span></span><span class=line><span class=cl><span class=c></span>
+</span></span><span class=line><span class=cl><span class=k>\usepackage</span><span class=nb>{</span>xepersian<span class=nb>}</span>
+</span></span><span class=line><span class=cl><span class=k>\settextfont</span><span class=nb>{</span>Yas<span class=nb>}</span> <span class=c>% فونت دلخواه برای متن فارسی
+</span></span></span><span class=line><span class=cl><span class=c></span><span class=k>\setlatintextfont</span><span class=nb>{</span>Times New Roman<span class=nb>}</span> <span class=c>% فونت برای متن لاتین
+</span></span></span><span class=line><span class=cl><span class=c></span>
 </span></span><span class=line><span class=cl><span class=k>\begin</span><span class=nb>{</span>document<span class=nb>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>\section</span><span class=nb>{</span>مقدمه<span class=nb>}</span>
+</span></span><span class=line><span class=cl>	<span class=k>\section</span><span class=nb>{</span>مقدمه<span class=nb>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>example<span class=nb>}</span> اشاره شده است.
+</span></span><span class=line><span class=cl>	این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>example<span class=nb>}</span> اشاره شده است.
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>\printbibliography</span>
+</span></span><span class=line><span class=cl>	<span class=k>\printbibliography</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>\end</span><span class=nb>{</span>document<span class=nb>}</span>
-</span></span></code></pre></td></tr></table></div></div><h2 id=نتیجهگیری>نتیجه‌گیری</h2><p>هر دو ابزار BibTeX و BibLaTeX برای مدیریت منابع در LaTeX کاربردی هستند، اما BibLaTeX با امکانات بیشتر و پشتیبانی بهتر از زبان‌های غیر لاتین مانند فارسی، انتخاب مناسبی برای مقالات مدرن و پیچیده‌تر به شمار می‌رود. انتخاب بین این دو ابزار بستگی به نیازهای خاص شما و میزان سفارشی‌سازی مورد نظر دارد.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/latex/>LaTeX</a>
+</span></span></code></pre></td></tr></table></div></div><h3 id=روش-کامپایل-1>روش کامپایل</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-shell data-lang=shell><span class=line><span class=cl>xelatex main.tex
+</span></span><span class=line><span class=cl>biber main
+</span></span><span class=line><span class=cl>xelatex main.tex
+</span></span><span class=line><span class=cl>xelatex main.tex
+</span></span></code></pre></td></tr></table></div></div><p>خروجی فایل بالا را <a class=link href=./main.biblatex.pdf>اینجا</a> می توانید ببینید.</p><h2 id=نتیجهگیری>نتیجه‌گیری</h2><p>هر دو ابزار BibTeX و BibLaTeX برای مدیریت منابع در LaTeX کاربردی هستند، اما BibLaTeX با امکانات بیشتر و پشتیبانی بهتر از زبان‌های غیر لاتین مانند فارسی، انتخاب مناسبی برای مقالات مدرن و پیچیده‌تر به شمار می‌رود. انتخاب بین این دو ابزار بستگی به نیازهای خاص شما و میزان سفارشی‌سازی مورد نظر دارد.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/latex/>LaTeX</a>
 <a href=/tags/bibtex/>BibTeX</a>
 <a href=/tags/biblatex/>BibLaTeX</a>
 <a href=/tags/xepersian/>XePersian</a>
@@ -115,4 +133,4 @@
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
 <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
 </button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">فهرست</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#تفاوتهای-اصلی-bibtex-و-biblatex>تفاوت‌های اصلی BibTeX و BibLaTeX</a><ol><li><a href=#bibtex>BibTeX</a></li><li><a href=#biblatex>BibLaTeX</a></li></ol></li><li><a href=#نمونه-کد-با-bibtex>نمونه کد با BibTeX</a></li><li><a href=#نمونه-کد-با-biblatex>نمونه کد با BibLaTeX</a></li><li><a href=#نتیجهگیری>نتیجه‌گیری</a></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">فهرست</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#تفاوتهای-اصلی-bibtex-و-biblatex>تفاوت‌های اصلی BibTeX و BibLaTeX</a><ol><li><a href=#bibtex>BibTeX</a></li><li><a href=#biblatex>BibLaTeX</a></li></ol></li><li><a href=#نمونه-کد-با-bibtex>نمونه کد با BibTeX</a><ol><li><a href=#روش-کامپایل>روش کامپایل</a></li></ol></li><li><a href=#نمونه-کد-با-biblatex>نمونه کد با BibLaTeX</a><ol><li><a href=#روش-کامپایل-1>روش کامپایل</a></li></ol></li><li><a href=#نتیجهگیری>نتیجه‌گیری</a></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous></script><script type=text/javascript src=/ts/main.js defer></script><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

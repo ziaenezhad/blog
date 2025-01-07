@@ -34,11 +34,13 @@
 &lt;/span>&lt;span class="lnt">15
 &lt;/span>&lt;span class="lnt">16
 &lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="k">\documentclass&lt;/span>&lt;span class="nb">{&lt;/span>article&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>xepersian&lt;span class="nb">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>XB Niloofar&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>Yas&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\setlatintextfont&lt;/span>&lt;span class="nb">{&lt;/span>Times New Roman&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت برای متن لاتین
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>cite&lt;span class="nb">}&lt;/span>
@@ -80,7 +82,23 @@
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="نمونه-کد-با-biblatex">نمونه کد با BibLaTeX&lt;/h2>
+&lt;/div>&lt;h3 id="روش-کامپایل">روش کامپایل&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">bibtex main
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>خروجی فایل بالا را &lt;a class="link" href="./main.bibtex.pdf" >اینجا&lt;/a> می توانید ببینید.&lt;/p>
+&lt;h2 id="نمونه-کد-با-biblatex">نمونه کد با BibLaTeX&lt;/h2>
 &lt;p>در این نمونه، از BibLaTeX به همراه biber برای مدیریت منابع استفاده شده است.&lt;/p>
 &lt;p>&lt;strong>فایل LaTeX (main.tex)&lt;/strong>&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
@@ -105,25 +123,41 @@
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="k">\documentclass&lt;/span>&lt;span class="nb">{&lt;/span>article&lt;span class="nb">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>xepersian&lt;span class="nb">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>XB Niloofar&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\setlatintextfont&lt;/span>&lt;span class="nb">{&lt;/span>Times New Roman&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت برای متن لاتین
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="na">[backend=biber,style=numeric,sorting=none]&lt;/span>&lt;span class="nb">{&lt;/span>biblatex&lt;span class="nb">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\addbibresource&lt;/span>&lt;span class="nb">{&lt;/span>references.bib&lt;span class="nb">}&lt;/span> &lt;span class="c">% فایل منابع
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="nb">{&lt;/span>xepersian&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\settextfont&lt;/span>&lt;span class="nb">{&lt;/span>Yas&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت دلخواه برای متن فارسی
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>&lt;span class="k">\setlatintextfont&lt;/span>&lt;span class="nb">{&lt;/span>Times New Roman&lt;span class="nb">}&lt;/span> &lt;span class="c">% فونت برای متن لاتین
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\begin&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\section&lt;/span>&lt;span class="nb">{&lt;/span>مقدمه&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">\section&lt;/span>&lt;span class="nb">{&lt;/span>مقدمه&lt;span class="nb">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">این یک نمونه متن است که در آن به منبعی &lt;span class="k">\cite&lt;/span>&lt;span class="nb">{&lt;/span>example&lt;span class="nb">}&lt;/span> اشاره شده است.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> این یک نمونه متن است که در آن به منبعی &lt;span class="k">\cite&lt;/span>&lt;span class="nb">{&lt;/span>example&lt;span class="nb">}&lt;/span> اشاره شده است.
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\printbibliography&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">\printbibliography&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">\end&lt;/span>&lt;span class="nb">{&lt;/span>document&lt;span class="nb">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="نتیجهگیری">نتیجه‌گیری&lt;/h2>
+&lt;/div>&lt;h3 id="روش-کامپایل-1">روش کامپایل&lt;/h3>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">biber main
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">xelatex main.tex
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>خروجی فایل بالا را &lt;a class="link" href="./main.biblatex.pdf" >اینجا&lt;/a> می توانید ببینید.&lt;/p>
+&lt;h2 id="نتیجهگیری">نتیجه‌گیری&lt;/h2>
 &lt;p>هر دو ابزار BibTeX و BibLaTeX برای مدیریت منابع در LaTeX کاربردی هستند، اما BibLaTeX با امکانات بیشتر و پشتیبانی بهتر از زبان‌های غیر لاتین مانند فارسی، انتخاب مناسبی برای مقالات مدرن و پیچیده‌تر به شمار می‌رود. انتخاب بین این دو ابزار بستگی به نیازهای خاص شما و میزان سفارشی‌سازی مورد نظر دارد.&lt;/p></description></item><item><title>فهم</title><link>https://ziaenezhad.ir/p/%D9%81%D9%87%D9%85/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%81%D9%87%D9%85/</guid><description>&lt;p>مدّتی که گذشت می فهمی مساله اصلا فلسفی نبود.&lt;/p></description></item><item><title>مرگ</title><link>https://ziaenezhad.ir/p/%D9%85%D8%B1%DA%AF/</link><pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%85%D8%B1%DA%AF/</guid><description>&lt;p>صبح شنبه بود و داشتم احمد را می رساندم به مهدکودک. فلکه قصرالدشت را که دور زدم تا بپیچم سمت قم آباد، احمد یک هو سرشو انداخت پایین و همانطور که به داشت به دستش نگاه می کرد پرسید: بابا وقتی شما می میرید من خیلی تنها می شم؟&lt;/p>
 &lt;p>من که توی حال خودم بودم همانطور ناگهانی، چشم هایم گرد شد. دوک خوردم. من بمیرم و &amp;hellip; یعنی من مرده باشم و احمد آن موقع چه خواهد کرد. تا حالا این شکلی به آن نگاه نکرده بودم. همیشه مردن برای من یک مساله شخصی بود که اگر سود و ضرری داشت، فقط به من مربوط بود. باید چه می گفتم؟ برای کودکی در این سن چه وقت پرسیدن همچین سوال هایی هست؟ از طرفی مردن و فقدان هم چیزی نیست که بتوان آن را انکار کرد. به هر حال من هم روزی می میرم.&lt;/p>
 &lt;p>گفتم: نه بابایی، من که حالا حالا ها نمی میرم. من کُلی وقت دیگه می میرم. اون موقع هم آنقدر پیر شدم که عصا می گیرم دستم و هر وقت هم که احساس کردی تنها شدی بیا تا با عصام یکی بزنم تو کلّت که یادت باشه من هنوز هستم. تازه اون موقع تو هم کُلی بچه داری خودت و هیچ وقت تنها نمی مونی.&lt;/p>
