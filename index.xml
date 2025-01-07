@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>رَفتن</title><link>https://ziaenezhad.ir/</link><description>Recent content on رَفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>تفاوت BibTeX و BibLaTeX</title><link>https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D8%AA%D9%81%D8%A7%D9%88%D8%AA-bibtex-%D9%88-biblatex/cover.jpg" alt="Featured image of post تفاوت BibTeX و BibLaTeX" />&lt;p>در فرآیند نگارش مقالات علمی با استفاده از LaTeX، مدیریت منابع و مراجع اهمیت زیادی دارد. دو ابزار پرکاربرد در این زمینه، &lt;strong>BibTeX&lt;/strong> و &lt;strong>BibLaTeX&lt;/strong> هستند. در این مطلب به بررسی تفاوت‌های این دو ابزار پرداخته و نمونه کدهای مورد نیاز برای یک مقاله فارسی با استفاده از XePersian ارائه می‌دهیم.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>رَفتن</title><link>https://ziaenezhad.ir/</link><description>Recent content on رَفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Mon, 06 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/index.xml" rel="self" type="application/rss+xml"/><item><title>معرفی BibLaTeX فارسی</title><link>https://ziaenezhad.ir/p/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-biblatex-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-biblatex-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-biblatex-%D9%81%D8%A7%D8%B1%D8%B3%DB%8C/cover.jpg" alt="Featured image of post معرفی BibLaTeX فارسی" />&lt;p>در فرآیند نگارش مقالات علمی با استفاده از LaTeX، مدیریت منابع و مراجع اهمیت زیادی دارد. دو ابزار پرکاربرد در این زمینه، &lt;strong>BibTeX&lt;/strong> و &lt;strong>BibLaTeX&lt;/strong> هستند. در این مطلب به بررسی تفاوت‌های این دو ابزار پرداخته و نمونه کدهای مورد نیاز برای یک مقاله فارسی با استفاده از XePersian ارائه می‌دهیم.&lt;/p>
 &lt;h2 id="تفاوتهای-اصلی-bibtex-و-biblatex">تفاوت‌های اصلی BibTeX و BibLaTeX&lt;/h2>
 &lt;h3 id="bibtex">BibTeX&lt;/h3>
 &lt;ul>
@@ -157,7 +157,31 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>خروجی فایل بالا را &lt;a class="link" href="./main.biblatex.pdf" >اینجا&lt;/a> می توانید ببینید.&lt;/p>
-&lt;h2 id="جمع-بندی">جمع بندی&lt;/h2>
+&lt;h2 id="پشتیبانی-از-زبان-فارسی-در-biblatex">پشتیبانی از زبان فارسی در BibLaTeX&lt;/h2>
+&lt;p>اگرچه BibLaTeX امکانات زیادی برای پشتیبانی از زبان فارسی در اختیار می دهد امّا هنوز به طور رسمی از زبان فارسی پشتیبانی نمی کند. من برای پشتیبانی از زبان فارسی یک &lt;strong>&lt;a class="link" href="https://github.com/plk/biblatex/pull/1408" target="_blank" rel="noopener"
+>پول ریکوئست&lt;/a>&lt;/strong> در ریپازیتوری اصلی پروژه در گیتهاب ارسال کرده ام امّا تا این لحظه هنوز تایید نشده.&lt;/p>
+&lt;p>توضیح اینکه فایل های &lt;code>.lbx&lt;/code> در BibLaTeX به عنوان منابعی برای محلّی سازی واژه ها و قواعد چینش استفاده می شوند. یک لیست از این فایل ها که در حال حاضر به طور رسمی پشتیبانی می شوند را &lt;a class="link" href="https://github.com/plk/biblatex/tree/dev/tex/latex/biblatex/lbx" target="_blank" rel="noopener"
+>اینجا&lt;/a> می توانید ببیند.&lt;/p>
+&lt;p>کار من این بود یکی از این فایل برای زبان فارسی ایجاد کردم که محتوای آن را در پول ریکوئست می تواند آن را ببینید.&lt;/p>
+&lt;p>علاوه بر تهیه معادل های فارسی، مشکل دیگری که وجود دارد این است که فی المثل در استایل APA که فرمت متداول مقالات علمی است، بین نام نویسندگان به جای &lt;code>و&lt;/code> کاراکتر &lt;code>&amp;amp;&lt;/code> چاپ می شود که برای این مشکل هم یک &lt;a class="link" href="https://github.com/plk/biblatex-apa/pull/251" target="_blank" rel="noopener"
+>پول ریکویئست دیگر&lt;/a> در ریپازیتوری مربوطه نوشته ام که آن هم تا این لحظه با سورس اصلی ادغام نشده.&lt;/p>
+&lt;p>فی الحال اگر می خواهید تا قبل از اعمال تغییرات در پکیج اصلی از BibLaTeX استفاده کنید، کافی است سه فایل مرتبط را در کنار فایل &lt;code>tex&lt;/code> خود کپی کنید و تنظیماتی را که در زیر آمده به سورس خود اضافه کنید:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="./persian.lbx" >persian.lbx&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="./persian-apa.bbx" >persian-apa.bbx&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="./persian-apa.cbx" >persian-apa.cbx&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="تنظیمات">تنظیمات&lt;/h3>
+&lt;p>برای اعمال پیکربندی فارسی پس از آنکه مطمئن شدید هر 3 فایل فوق در کنار فایل &lt;code>tex&lt;/code> اصلی شما قرار دارند، پکیج را به صورت زیر اضافه کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-latex" data-lang="latex">&lt;span class="line">&lt;span class="cl">&lt;span class="k">\usepackage&lt;/span>&lt;span class="na">[backend=biber, style=persian-apa, language=persian]&lt;/span>&lt;span class="nb">{&lt;/span>biblatex&lt;span class="nb">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="جمع-بندی">جمع بندی&lt;/h2>
 &lt;p>هر دو ابزار BibTeX و BibLaTeX برای مدیریت منابع در LaTeX کاربردی هستند، اما BibLaTeX با امکانات بیشتر و پشتیبانی بهتر از زبان‌های غیر لاتین مانند فارسی، انتخاب مناسبی برای مقالات مدرن و پیچیده‌تر به شمار می‌رود. انتخاب بین این دو ابزار بستگی به نیازهای خاص شما و میزان سفارشی‌سازی مورد نظر دارد.&lt;/p></description></item><item><title>فهم</title><link>https://ziaenezhad.ir/p/%D9%81%D9%87%D9%85/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%81%D9%87%D9%85/</guid><description>&lt;p>مدّتی که گذشت می فهمی مساله اصلا فلسفی نبود.&lt;/p></description></item><item><title>مرگ</title><link>https://ziaenezhad.ir/p/%D9%85%D8%B1%DA%AF/</link><pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%85%D8%B1%DA%AF/</guid><description>&lt;p>صبح شنبه بود و داشتم احمد را می رساندم به مهدکودک. فلکه قصرالدشت را که دور زدم تا بپیچم سمت قم آباد، احمد یک هو سرشو انداخت پایین و همانطور که به داشت به دستش نگاه می کرد پرسید: بابا وقتی شما می میرید من خیلی تنها می شم؟&lt;/p>
 &lt;p>من که توی حال خودم بودم همانطور ناگهانی، چشم هایم گرد شد. دوک خوردم. من بمیرم و &amp;hellip; یعنی من مرده باشم و احمد آن موقع چه خواهد کرد. تا حالا این شکلی به آن نگاه نکرده بودم. همیشه مردن برای من یک مساله شخصی بود که اگر سود و ضرری داشت، فقط به من مربوط بود. باید چه می گفتم؟ برای کودکی در این سن چه وقت پرسیدن همچین سوال هایی هست؟ از طرفی مردن و فقدان هم چیزی نیست که بتوان آن را انکار کرد. به هر حال من هم روزی می میرم.&lt;/p>
 &lt;p>گفتم: نه بابایی، من که حالا حالا ها نمی میرم. من کُلی وقت دیگه می میرم. اون موقع هم آنقدر پیر شدم که عصا می گیرم دستم و هر وقت هم که احساس کردی تنها شدی بیا تا با عصام یکی بزنم تو کلّت که یادت باشه من هنوز هستم. تازه اون موقع تو هم کُلی بچه داری خودت و هیچ وقت تنها نمی مونی.&lt;/p>
