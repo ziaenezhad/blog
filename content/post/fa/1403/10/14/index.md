@@ -30,8 +30,9 @@ categories: [دانشجویی]
 
 ```latex
 \documentclass{article}
+
 \usepackage{xepersian}
-\settextfont{XB Niloofar} % فونت دلخواه برای متن فارسی
+\settextfont{Yas} % فونت دلخواه برای متن فارسی
 \setlatintextfont{Times New Roman} % فونت برای متن لاتین
 
 \usepackage{cite}
@@ -60,32 +61,56 @@ categories: [دانشجویی]
   number = {۲},
   pages = {۱-۱۰},
 }
+
 ```
 
+### روش کامپایل
+
+```shell
+xelatex main.tex
+bibtex main
+xelatex main.tex
+xelatex main.tex
+```
+
+خروجی فایل بالا را [اینجا](./main.bibtex.pdf) می توانید ببینید.
+
 ## نمونه کد با BibLaTeX
+
 در این نمونه، از BibLaTeX به همراه biber برای مدیریت منابع استفاده شده است.
 
 **فایل LaTeX (main.tex)**
 
 ```latex
 \documentclass{article}
-\usepackage{xepersian}
-\settextfont{XB Niloofar} % فونت دلخواه برای متن فارسی
-\setlatintextfont{Times New Roman} % فونت برای متن لاتین
-
 \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \addbibresource{references.bib} % فایل منابع
 
+\usepackage{xepersian}
+\settextfont{Yas} % فونت دلخواه برای متن فارسی
+\setlatintextfont{Times New Roman} % فونت برای متن لاتین
+
 \begin{document}
 
-\section{مقدمه}
+	\section{مقدمه}
 
-این یک نمونه متن است که در آن به منبعی \cite{example} اشاره شده است.
+	این یک نمونه متن است که در آن به منبعی \cite{example} اشاره شده است.
 
-\printbibliography
+	\printbibliography
 
 \end{document}
 ```
+
+### روش کامپایل
+
+```shell
+xelatex main.tex
+biber main
+xelatex main.tex
+xelatex main.tex
+```
+
+خروجی فایل بالا را [اینجا](./main.biblatex.pdf) می توانید ببینید.
 
 ## نتیجه‌گیری
 
