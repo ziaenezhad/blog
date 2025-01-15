@@ -41,7 +41,7 @@ categories: [دانشجویی]
 
 \section{مقدمه}
 
-این یک نمونه متن است که در آن به منبعی \cite{example} اشاره شده است.
+این یک نمونه متن است که در آن به منبعی \cite{ref1} اشاره شده است.
 
 \bibliographystyle{unsrt} % انتخاب سبک مرجع
 \bibliography{references} % فایل منابع
@@ -52,9 +52,10 @@ categories: [دانشجویی]
 **فایل منابع (`references.bib`)**
 
 ```bibtex
-@article{example,
-  author = {علی‌پور، علی},
-  title = {نمونه‌ای از یک مقاله فارسی},
+% ./references.bib
+@article{ref1,
+  author = {علی علی‌پور, and ممد ممدپور},
+  title = {مقایسه تطبیقی نقش مسواک و جاروبرقی در رشد نهال انگور},
   journal = {مجله نمونه},
   year = {۱۴۰۲},
   volume = {۱۰},
@@ -62,6 +63,15 @@ categories: [دانشجویی]
   pages = {۱-۱۰},
 }
 
+@article{ref2,
+  author = {علی علی‌پور, and ممد ممدپورو, and رضا رضاپور},
+  title = {تاثیر بوی کباب در افزایش نرخ بهروری کارگران کارخانه شورآباد},
+  journal = {مجله نمونه},
+  year = {۱۴۰۲},
+  volume = {۱۰},
+  number = {۲},
+  pages = {۱-۱۰},
+}
 ```
 
 ### روش کامپایل
@@ -94,7 +104,7 @@ xelatex main.tex
 
 	\section{مقدمه}
 
-	این یک نمونه متن است که در آن به منبعی \cite{example} اشاره شده است.
+	این یک نمونه متن است که در آن به منبعی \cite{ref1} اشاره شده است.
 
 	\printbibliography
 
