@@ -47,24 +47,46 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>\section</span><span class=nb>{</span>مقدمه<span class=nb>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>example<span class=nb>}</span> اشاره شده است.
+</span></span><span class=line><span class=cl>این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>ref1<span class=nb>}</span> اشاره شده است.
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>\bibliographystyle</span><span class=nb>{</span>unsrt<span class=nb>}</span> <span class=c>% انتخاب سبک مرجع
 </span></span></span><span class=line><span class=cl><span class=c></span><span class=k>\bibliography</span><span class=nb>{</span>references<span class=nb>}</span> <span class=c>% فایل منابع
 </span></span></span><span class=line><span class=cl><span class=c></span>
 </span></span><span class=line><span class=cl><span class=k>\end</span><span class=nb>{</span>document<span class=nb>}</span>
-</span></span></code></pre></td></tr></table></div></div><p><strong>فایل منابع (<code>references.bib</code>)</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span><span class=lnt>6
-</span><span class=lnt>7
-</span><span class=lnt>8
-</span><span class=lnt>9
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bibtex data-lang=bibtex><span class=line><span class=cl><span class=nc>@article</span><span class=p>{</span><span class=nl>example</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>  <span class=na>author</span> <span class=p>=</span> <span class=s>{علی‌پور، علی}</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>  <span class=na>title</span> <span class=p>=</span> <span class=s>{نمونه‌ای از یک مقاله فارسی}</span><span class=p>,</span>
+</span></span></code></pre></td></tr></table></div></div><p><strong>فایل منابع (<code>references.bib</code>)</strong></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bibtex data-lang=bibtex><span class=line><span class=cl><span class=c>% ./references.bib</span>
+</span></span><span class=line><span class=cl><span class=nc>@article</span><span class=p>{</span><span class=nl>ref1</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>author</span> <span class=p>=</span> <span class=s>{علی علی‌پور, and ممد ممدپور}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>title</span> <span class=p>=</span> <span class=s>{مقایسه تطبیقی نقش مسواک و جاروبرقی در رشد نهال انگور}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>journal</span> <span class=p>=</span> <span class=s>{مجله نمونه}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>year</span> <span class=p>=</span> <span class=s>{۱۴۰۲}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>volume</span> <span class=p>=</span> <span class=s>{۱۰}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>number</span> <span class=p>=</span> <span class=s>{۲}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>pages</span> <span class=p>=</span> <span class=s>{۱-۱۰}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl><span class=p>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=nc>@article</span><span class=p>{</span><span class=nl>ref2</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>author</span> <span class=p>=</span> <span class=s>{علی علی‌پور, and ممد ممدپورو, and رضا رضاپور}</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>  <span class=na>title</span> <span class=p>=</span> <span class=s>{تاثیر بوی کباب در افزایش نرخ بهروری کارگران کارخانه شورآباد}</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>  <span class=na>journal</span> <span class=p>=</span> <span class=s>{مجله نمونه}</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>  <span class=na>year</span> <span class=p>=</span> <span class=s>{۱۴۰۲}</span><span class=p>,</span>
 </span></span><span class=line><span class=cl>  <span class=na>volume</span> <span class=p>=</span> <span class=s>{۱۰}</span><span class=p>,</span>
@@ -108,7 +130,7 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>	<span class=k>\section</span><span class=nb>{</span>مقدمه<span class=nb>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>	این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>example<span class=nb>}</span> اشاره شده است.
+</span></span><span class=line><span class=cl>	این یک نمونه متن است که در آن به منبعی <span class=k>\cite</span><span class=nb>{</span>ref1<span class=nb>}</span> اشاره شده است.
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>	<span class=k>\printbibliography</span>
 </span></span><span class=line><span class=cl>
