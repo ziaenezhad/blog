@@ -1,18 +1,20 @@
 baseurl: https://ziaenezhad.ir
 theme: hugo-theme-stack
-paginate: 5
 title: رفتن
+paginate: 10
 
 languages:
   fa:
     languageName: فارسی
     languagedirection: rtl
     title: رَفتن
-    weight: 1
+    contentDir: "content/fa" # مسیر محتوای فارسی
+    weight: 1 # اولویت برای نمایش زبان در صورت نیاز
   en:
     languageName: English
     title: To pass
     weight: 2
+    contentDir: "content/en" # مسیر محتوای انگلیسی
 
 # Change it to your Disqus shortname before using
 disqusShortname: ziaenezhad
@@ -22,7 +24,8 @@ googleAnalytics:
 
 # Theme i18n support
 # Available values: ar, ca, de, el, en, es, fr, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: fa
+defaultContentLanguage: fa
+languageCode: "fa" # زبان پیش‌فرض سایت (فارسی)
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
