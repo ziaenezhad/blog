@@ -7,7 +7,7 @@ languages:
   fa:
     languageName: فارسی
     languagedirection: rtl
-    title: رَفتن
+    title: رفتن
     contentDir: "content/fa" # مسیر محتوای فارسی
     weight: 1 # اولویت برای نمایش زبان در صورت نیاز
   en:
@@ -55,10 +55,10 @@ params:
     local: true
     # emoji: 🍥
     subtitle: 
-      fa: بلاگ سَجّادِضِیاءْنِژادْ
-      en: Sajjad Ziaenejad Shirazi
+      fa: بلاگ سجاد ضیاء‌نژاد
+      en: Sajjad Ziaenezhad Shirazi
     description: 
-      fa: برنامه نویس | دانشجوی دکتری فلسفه اسلامی دانشگاه شیراز
+      fa: مهندس نرم‌افزار | دانشجوی دکتری فلسفه‌اسلامی دانشگاه شیراز
       en: A personal blog about computer science and life.
     avatar:
       enabled: true
