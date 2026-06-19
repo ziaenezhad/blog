@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>APK on رفتن</title><link>https://ziaenezhad.ir/tags/apk/</link><description>Recent content in APK on رفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Thu, 16 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/tags/apk/index.xml" rel="self" type="application/rss+xml"/><item><title>هفت خوان توسعه و استقرار نرم افزار در نت ملّی</title><link>https://ziaenezhad.ir/p/%D9%87%D9%81%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%86%D8%AA-%D9%85%D9%84%D9%91%DB%8C/</link><pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%87%D9%81%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%86%D8%AA-%D9%85%D9%84%D9%91%DB%8C/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D9%87%D9%81%D8%AA-%D8%AE%D9%88%D8%A7%D9%86-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%88-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D8%AF%D8%B1-%D9%86%D8%AA-%D9%85%D9%84%D9%91%DB%8C/cover.jpg" alt="Featured image of post هفت خوان توسعه و استقرار نرم افزار در نت ملّی" />&lt;h2 id="طرح-مساله">طرح مساله&lt;/h2>
+&lt;p>قبلا مثلا در دهه 80 و اوایل 90 برنامه نویسی وابسته به اینترنت نبود. یک سری سی دی هایی در فروشگاه های کامپیوتری بود که با آنها می شد ویژوال استودیو یا پاسکال یا متلب یا پایتون یا دیتابیس ها را نصب کرد. این همه ابزار هایی بود که لازم داشتید. برای اینکه بدانید چطور می توانید برنامه نویسی کنید هم کتاب های قطوری بود که معمولا توسط آقایی به نام قُلزم ترجمه شده بود و همه مستندات و راهنما ها را در خود داشت. آخر کار هم فایل های کامپایل شده یا سورس کد را روی فلش یا سی دی می ریختید و به مشتری یا استاد دانشگاهتان می دادید.&lt;/p>
+&lt;p>اما در این روز ها با این کثرت کتابخانه ها و ابزار ها و تحولات سریع دنیای نرم افزار و توسعه، عدم دسترسی به اینترنت برای یک برنامه نویس عملاً مترادف است با بیکاری، دریدن گریبان و سر گذاشتن به بیابان. من هم تقریبا تا اواخر اسفند در همین حال بودم امّا به مرور دیدم مثل اینکه هنوز می شود کارهایی کرد. در این مدّت یکی از دوستان یک پروژه اتوماسیون جمع آوری و آنالیز داده های یک گلخانه بزرگ را به من پیش نهاد داده بود.&lt;/p>
+&lt;p>برای نمونه اولیه می خواستم همه چیز کمینه باشد و تا آنجایی که می شود به جز بخش لاجیک اختصاصی پروژه، از ابزار های آماده استفاده کنم. برای این هدف به گیت، NPM، داکر، ریپازیتوری پکیج های اوبونتو و توزیع های خود اوبونتو نیاز داشتم. در این نوشته می خواهم چیزهایی که در باره راه حل های توسعه در نت ملّی فهمیدم را به اشتراک بگذارم.&lt;/p>
+&lt;h2 id="ابزارهای-عمومی">ابزارهای عمومی&lt;/h2>
+&lt;h3 id="گیتلب-چابکان">گیتلب چابکان&lt;/h3>
+&lt;p>گیت‌لب چابکان یک نسخه کامل و داخلی از GitLab است که در دیتاسنتر ایران میزبانی می‌شود. این سرویس امکان مدیریت کد، CI/CD، Issue Tracking و تمامی قابلیت‌های GitLab را برای تیم‌های توسعه فراهم می‌کند، حتی در زمان قطعی یا محدودیت دسترسی به سرویس‌های خارجی. همه چیز گیتلب چابکان عالیه و تا الان که کاملا پایدار بوده. تنها مشکلی که داره ایناست:&lt;/p>
+&lt;ul>
+&lt;li>نداشتن Runner عمومی و رایگان برای اجرای خط لوله های CI/CD که عملاً استفاده از این خط لوله ها رو خیلی پیچیده می کنه.&lt;/li>
+&lt;li>نداشتن بخش Pages که اگر بود می تونست خیلی از مشکلات نبود مستندات و تِک بلاگ ها رو جبران کنه.&lt;/li>
+&lt;/ul>
+&lt;p>آدرسش هست:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://gitlab.chabokan.net
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>مجموعه چابکان امکانات دیگه ای رو هم برای شرایط نت ملّی فراهم کرده که می تونید توی صفحه اختصاصی شون ببینید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://iran.chabokan.net/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="هوش-مصنوعی-گپ-جی-پی-تی">هوش مصنوعی گپ جی پی تی&lt;/h3>
+&lt;p>مشکل مستندات رو می شه به راحتی با مدل های زبانی برطرف کرد. گپ جی پی تی(طبق بررسی مختصر من) بهترین سرویسی بود که می شد از این مدل ها استفاده کرد. هم مدل های پولی داره و هم یک مدل رایگان که به نظرم در اکثر موارد کافی هست. البته قیمت مدهای پولی هم واقعاً در این شرایط منصفانه است:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://gapgpt.app/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="دسترسی-به-مستندات">دسترسی به مستندات&lt;/h3>
+&lt;p>نمی دانم چطور این سایت از فیلترینگ جامانده با اینکه ظاهرا ایرانی هم نیست ولی خب یه سری از کتابخانه ها و زبان ها رو می شه اینجا مستنداتشون رو دید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://docs.parchlinux.com/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="محیط-توسعه-vs-code">محیط توسعه VS Code&lt;/h3>
+&lt;p>خود VS Code رو می تونید از اینجا با ترافیک نیم بها دانلود کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://soft98.ir/software/programming/53-visual-studio-code-a.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>امّا اگر کاربر اوبونتو هستید کار به این آسونی نیست. من نتونستم پکیج نصبی واسه VS Code داخل سایت های دانلود ایرانی پیدا کنم. همگی از هاست پکیج های لینوکس انگار صرف نظر کردن و فقط به سایت های خارجی لینک دادن.&lt;/p>
+&lt;p>امّا روش جایگزینی که پیدا کردم از سایت
+&lt;a class="link" href="https://devneeds.ir" target="_blank" rel="noopener"
+>https://devneeds.ir&lt;/a>
+بود. برای این کار کافیه ریپوزیتوری VS Code رو به پکیج منیجر اوبونتو اضافه کنید و بعد اون رو از ریپوزیتوری نصب کنید:&lt;/p>
+&lt;ol>
+&lt;li>اضافه کردن ریپازیتوری به لیست سورس ها:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="s2">&amp;#34;deb [trusted=yes] https://apt.devneeds.ir/vscode stable main&amp;#34;&lt;/span> &lt;span class="p">|&lt;/span> sudo tee /etc/apt/sources.list.d/vscode.list
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>نصب VS Code:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt update
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">sudo apt install code
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>همچنین برای نصب افزونه های می تونید از مخزن افزونه های همین سایت استفاده کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://vscode.devneeds.ir/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>فوق العاده است این سایت :)&lt;/p>
+&lt;p>فقط یکم سرورشون کنده و بعضی مواقع می خوابه. روش کار اینجوریه که افزونه ای رو که می خواید دانلود می کنید و بعد از توی VS Code کامند پالت رو باز می کنید (Ctrl+Shift+P) و بعد سرچ کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Extensions: Instalafrom VSIX
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>تامام.&lt;/p>
+&lt;h2 id="راه-اندازی-nodejs">راه اندازی NodeJS&lt;/h2>
+&lt;h3 id="نصب-nodejs">نصب NodeJS&lt;/h3>
+&lt;p>کسانی که Nodejs کار می کنند معمولا برای مدیریت نسخه ها از ابزاری به اسم NVM استفاده می کنند. متاسفانه من راهی برای نصب و استفاده از اون در نت ملّی پیدا نکردم. بنابراین مجبوریم به صورت دستی نصب کنیم. توصیه می کنم حتما نسخه LTS رو نصب کنید. نسخه LTS در حال حاضر 24 هست.&lt;/p>
+&lt;p>برای نصب NodeJS در ویندوز می تونید از اینجا اقدام کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">p30download&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">ir&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">fa&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">entry&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">110351&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">nodejs&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>برای نصب در اوبونتو هم می توانید از لینک های زیر بسته فایل نصبی رو دانلود و نصب کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">quera&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">org&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">qbox&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">download&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">GDVbzYLc47&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">node&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">v22&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">14.0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">linux&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">x64&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">tar&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xz&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">quera&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">org&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">qbox&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">download&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="mi">9&lt;/span>&lt;span class="n">iTZXlouxE&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">node&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">v23&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">7.0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">linux&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">x64&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">tar&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xz&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">quera&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">org&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">qbox&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">download&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">O3kvb9q4kE&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">node&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">v24&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">14.0&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">linux&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">x64&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">tar&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xz&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">https&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="o">//&lt;/span>&lt;span class="n">quera&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">org&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">qbox&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">download&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">s2DHDWqSiO&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">node&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">v25&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="mf">8.1&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">linux&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">x64&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">tar&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">xz&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>مراحل نصب اینطوری هست که فایل رو از حالت فشرده خارج می کنید و آدرس فایل های باینری رو به آدرس های عمومی ترمینال تون اضافه می کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">tar -xJf node-vXX.X.X-linux-x64.tar.xz
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>حالا این دستور رو به فایل &lt;code>~/.bashrc&lt;/code> یا &lt;code>~/.zshrc&lt;/code> اضافه کنید تا همه جای ترمینال بتونید دسترسی داشته باشید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">export&lt;/span> &lt;span class="nv">PATH&lt;/span>&lt;span class="o">={&lt;/span>آدرس_فایلهای_استخراج_شده&lt;span class="o">}&lt;/span>/bin:&lt;span class="nv">$PATH&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>و اینجوری می تونید تست کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">node --version
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm --version
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>برای توسعه NodeJS حداقل افزونه هایی که لازمه نصب شه روی VS Code به نظرم ایناست که روش اضافه کردن اونها رو بالاتر توضیح دادم:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Material Icon pack
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Prettier
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ES Lint
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="دسترسی-به-npm">دسترسی به NPM&lt;/h3>
+&lt;p>راه حلّی که برای دسترسی به پکیج ها در نت ملّی وجود داره اینه که از یکی از مخزن های ایرانی که کپی داخلی از مخزن اصلی هست استفاده کنید. سرویس های ایرانی متعددی مخزنشون رو به اشتراک گذاشتن:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>نام میرور&lt;/th>
+&lt;th>آدرس&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>ران‌فلر&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirror-npm.runflare.com" target="_blank" rel="noopener"
+>https://mirror-npm.runflare.com&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>لیارا&lt;/td>
+&lt;td>&lt;a class="link" href="https://package-mirror.liara.ir/repository/npm" target="_blank" rel="noopener"
+>https://package-mirror.liara.ir/repository/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>پردیس&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirrors.pardisco.co/npm" target="_blank" rel="noopener"
+>https://mirrors.pardisco.co/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>مگان‌هاب&lt;/td>
+&lt;td>&lt;a class="link" href="https://hub.megan.ir/npm" target="_blank" rel="noopener"
+>https://hub.megan.ir/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>چابکان&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirror2.chabokan.net/npm" target="_blank" rel="noopener"
+>https://mirror2.chabokan.net/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ایران‌سرور&lt;/td>
+&lt;td>&lt;a class="link" href="https://mirror.iranserver.com/npm" target="_blank" rel="noopener"
+>https://mirror.iranserver.com/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>وزارت ارتباطات&lt;/td>
+&lt;td>&lt;a class="link" href="https://archive.ito.gov.ir/npm" target="_blank" rel="noopener"
+>https://archive.ito.gov.ir/npm&lt;/a>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>ران فلر خیلی مخزن پایداری هست ولی متاسفانه کاملا مجانی نیست. بعد از اون به نظرم لیارا شرایط مناسب تری داشت. بعضی پکیج ها مفقودند یا به روز نیستند که در این حالت باید مخزنتون رو عوض کنید.&lt;/p>
+&lt;p>برای تنظیم یک میرور به صورت سراسری که &lt;code>npm&lt;/code> به طور پیش‌فرض از آن استفاده کند، دستور زیر را اجرا کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">npm config &lt;span class="nb">set&lt;/span> registry &amp;lt;mirror&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>برای تست تنظیمات می تونید از دستور زیر استفاده کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">npm ping
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="راه-اندازی-ubuntu">راه اندازی Ubuntu&lt;/h2>
+&lt;p>ممکنه برای توسعه مایل باشید از همون ویندوز استفاده کنید امّا برای استقرار نرم افزار و راه انداز سرور حتماً گذارتون به دبِاغ خونه لینوکس می افته. لینوکس پایدارترین محیط استقرار سرویس های تحت شبکه هست و اکثر شرکت ها از اون استفاده می کنند.&lt;/p>
+&lt;p>توزیع متداول لینوکس چه برای دسکتاپ و چه برای سرور -حداقل از نظر من- اوبونتو (Ubuntu) هست.&lt;/p>
+&lt;h3 id="نصب-ubuntu">نصب Ubuntu&lt;/h3>
+&lt;p>سرویس سرور های شاتل، فایل ISO همه نسخه های اوبونتو رو اینجا قرار داده که می تونید دانلود کنید. توجه کنید که حتما نسخه LTS رو اگر مورد خاصی ندارید نصب کنید نه نسخه آخر رو. نسخه LTS اوبونتو در حال حاضر 24 هست:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://mirror.shatel.ir/ubuntu-releases/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>بعد از دانلود فایل ISO اگر برای ماشین مجازی هست که در نرم افزار کافیه اون رو انتخاب کنید. اگر هم می خواید روی یه ماشین فیزیکی نصب کنید باید اون رو با نرم افزار هایی مثل Rufus روی فلش بنویسید و منتقل کنید.&lt;/p>
+&lt;h3 id="تنظیم-مخزن">تنظیم مخزن&lt;/h3>
+&lt;p>مخازن اصلی اوبونتو در سرورهای خارج از ایران قرار دارند و به دلیل محدودیت‌های نت ملّی، دسترسی به اونها در حال حاضر وجود نداره. خوشبختانه راه‌حل ساده‌ای برای این مشکل وجود دارد و آن استفاده از میرورهای ایرانی است. میرورهای ایرانی کپی کاملی از مخازن اصلی اوبونتو هستند که در سرورهای داخل ایران نگهداری می‌شوند و سرعت دانلود از آن‌ها بسیار بالاتر از مخازن اصلی است.&lt;/p>
+&lt;p>مخازن ایرانی متعددی در دسترس هست:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>نام میرور&lt;/th>
+&lt;th>آدرس اصلی&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>آروان‌کلاد&lt;/td>
+&lt;td>mirror.arvancloud.ir&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ایران‌سرور&lt;/td>
+&lt;td>mirror.iranserver.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>رانفلر&lt;/td>
+&lt;td>mirror-linux.runflare.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>رسانگار&lt;/td>
+&lt;td>mirror.rasanegar.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>سینداد&lt;/td>
+&lt;td>ir.ubuntu.sindad.cloud&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>شاتل&lt;/td>
+&lt;td>mirror.shatel.ir&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>امینی‌دی‌سی&lt;/td>
+&lt;td>mirror.aminidc.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>پارس‌پک&lt;/td>
+&lt;td>mirror.parspack.com&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>افرانت&lt;/td>
+&lt;td>mirror.afranet.ir&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>صبانت&lt;/td>
+&lt;td>mirror.sabaynet.ir&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>در بین این ها به نظر ایران سرور و آروان کلاد شرایط بهتری داشتن. هر کدام از این سرویس ها آموزش نحوه استفاده از مخزنشون رو دارن. مثلا برای آروان و ایران سرور می تونید به اینجاها مراجعه کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://www.arvancloud.ir/fa/dev/linux-repository
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://mirror.iranserver.com/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="راه-اندازی-docker">راه اندازی Docker&lt;/h2>
+&lt;h3 id="نصب-داکر">نصب داکر&lt;/h3>
+&lt;p>پکیج های نصبی مرتبط با داکر در مخزن عمومی اوبونتو نیست و برای نصبش باید کلیدهای مخزن داکر نصب بشه که روی سرور اصلی داکر هست و در نت ملّی به اون دسترسی نداریم. امّا هنوز هم راه حلّ های داخلی هست. در ادامه مراحل نصب داکر رو روی نت ملّی با کمک ریپازیتوری وزارت ارتباطات جلو می بریم:&lt;/p>
+&lt;ol>
+&lt;li>بروز رسانی لیست بسته ها:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt update
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="2">
+&lt;li>ابزارهای زیر رو نصب کن:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="3">
+&lt;li>کلید مخزن داکر رو اضافه کن:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">curl -fsSL https://archive.ito.gov.ir/docker-ce/linux/ubuntu/gpg &lt;span class="p">|&lt;/span> sudo gpg --dearmor -o /usr/share/keyrings/ docker-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="4">
+&lt;li>مخزن رو اضافه کن:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">echo&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span>&lt;span class="s2">&amp;#34;deb [arch=amd64 signed-by=/usr/share/keyrings/
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">docker-archive-keyring.gpg
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">] \
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">https://archive.ito.gov.ir/docker-ce/linux/ubuntu
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="s2">jammy stable&amp;#34;&lt;/span> &lt;span class="se">\
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="se">&lt;/span>&lt;span class="p">|&lt;/span> sudo tee /etc/apt/sources.list.d/docker.list&amp;gt; /dev/null
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="5">
+&lt;li>داکر رو نصب کن:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo apt install -y docker-ce docker-ce-clicontainerd.io
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ol start="6">
+&lt;li>تست کن:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">sudo systemctl restart docker
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="تنظیم-رجیستری">تنظیم رجیستری&lt;/h3>
+&lt;p>در شرایط عادّی دسترسی ایران به رجیستری ایمیج های داکر تحریم شده بود ولی حالا در شرایط نت ملّی فقط باید به این تحریم خندید:)&lt;/p>
+&lt;p>شرکت های متعددی کپی داخلی رجیستری عمومی داکر رو در اختیار گذاشتن که بشخصه از همه شون متشکرم. به نظرم رجیستری مگان هاب و ابرآروان از همه کامل تر و بروز تر بود. برای آشنایی با نحوه تنظیم داکر بر روی این رجیستری ها می تونید به سایت های خود این سروری ها مراجعه کنید:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">https://megan.ir/hub/docker/repository
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://www.arvancloud.ir/fa/dev/docker
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://mirror.iranserver.com/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">https://devneeds.ir/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="تکمله">تکمله&lt;/h2>
+&lt;p>نت ملّی خوب است یا بد؟ احتمالا فکر می کنیم همه باید بگوییم بد. امّا باید بین دو چیز تفکیک قائل شویم: نت ملّی یک چیز است و قطعی اینترنت یک چیز دیگر. آنچه که احتمالا بد است قطعی اینترنت است. تنها این جنبه شرایط کنونی است که قبیح به نظر می سد.&lt;/p>
+&lt;p>نت ملّی به نظر من قدرت ماست. مگر چند کشور در دنیا زیر ساخت ابری دارند؟ موتور جستجوی داخلی دارند؟ پیامرسان داخلی دارند؟ آمریکا، چین و روسیه. فکر نمی کنم به جز این سه گزینه قابل اعتنایی به جز ایران باشد. ولی ما هم داریم.&lt;/p>
+&lt;p>دشمن بزرگ ملّت را بالا می کشد، بزرگ می کند. ملّت را مجبور می کند در ابعاد او ظاهر شود. مگر مدرنیته و چهارصد سال عقب افتادگی شرق از غرب مساله کلان ما نیست؟ چرا نباید به این شرایط به عنوان مجالی برای جبران آن همه درجا زدن نگاه کرد؟&lt;/p>
+&lt;p>آمریکا بزرگ است؛ قبول! بگذاریم در این فرصت پیش آمده ما هم بزرگ شویم. چرا باید از ملّی شدن و داخلی شدن این همه ترسید؟ مگر همین چند هفته پیش در لحظه صفر حمله به فرودگاه متروک اصفهان، همه تجهیزات شرکت‌های سیسکو (Cisco) جونیپر (Juniper) و فورتینت (Fortinet) و دستگاه‌های مبتنی بر سیستم‌عامل میکروتیک (MikroTik OS) به‌طور هماهنگ و ناگهانی از مدار خارج نشدند و سیستم عامل آنها قفل نشد؟ مگر ماه پیش آمریکا ورود روتر هایی که در آمریکا ساخته نشده اند را ممنوع نکرد؟ آیا لازمه پاسداری از تمدّن و زندگی در این کشور این نیست که پاسدار استقلال فناورانه این مملکت باشیم؟ پس این همه مقاومت برای چیست؟&lt;/p>
+&lt;p>پرسش حسّاسی است. نمی دانم؛ شاید این مقاومت حاصل رقابت ناعادلانه و ظالمانه پلتفرم های داخلی در بستر نت ملّی با رقبای خارجی در بستر اینترنت است. می توانست تنها محرّک استفاده از آپارات بستن یوتیوب نباشد. می توانست محرّک تخفیف در ترافیک داخلی باشد. می توانست محرّک استفاده از پیام رسان های داخلی فیلتر تلگرام و واتساپ نباشد و قس علی هذا. و به خاطر همین رقابت ناعادلانه است که می بینیم ملّت ایران طبق معمول در طرف مظلوم ایستاده اند و به گزینه های داخلی به عنوان یک متقلّب در بازی نگاه می کنند.&lt;/p>
+&lt;p>از طرفی اینکه مردم و حتّی رئیس جمهور و وزیر ارتباطات هم اختیاری در این قطع و وصلی ها وقت و بی وقت ندارند، نوعی استیصال و نا امیدی را دامن زده است. و از همه بدتر سیمکارت های سفید خودی ها که از نظر ضعیفان و غیر مرتبطان، رفتاری توهین آمیز و بی عدالتی تلقّی می شود. همه این ها باعث بوجود آمدن نوعی حس تحقیر شدگی در جامعه شده است. عقده حقارتی هر ساعت چرکین تر می شود.&lt;/p>
+&lt;p>تنها چیزی که می توان گفت این است که باید دلسوزان ایران و نظام، راهی برای جلب اعتماد و حفظ شان و کرامت ملّت در حکمرانی فضای مجازی بیابند. راهی که بتوان با تکیه بر آن، دستاورد عظیم نت ملّی را بگونه ای روایت نمود که مایه افتخار باشد و نه آنچنان که متاسفانه روایت غالب است زنجیری بر تن ایران.&lt;/p></description></item></channel></rss>
