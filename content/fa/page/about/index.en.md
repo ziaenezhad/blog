@@ -17,7 +17,7 @@ comments: false
 ---
 ## Introduction
 
-I'm Sajjad Ziaenejad Shirazi, a computer engineer 🙂. This is my personal blog about computer science and life.
+I'm Sajjad Ziaenezhad Shirazi, a computer engineer 🙂. This is my personal blog about computer science and life.
 
 ## My Contact
 
