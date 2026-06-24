@@ -7,6 +7,30 @@
 {{- $title := partialCached "data/title" . .RelPermalink -}}
 <title>{{ $title }}</title>
 
+{{ if or .IsHome (eq .RelPermalink "/about/") }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "سجاد ضیاءنژاد",
+  "alternateName": [
+    "سجاد ضیاء نژاد",
+    "سجاد ضیا نژاد",
+    "سجاد ضیانژاد",
+    "Sajjad Ziaenezhad",
+    "Sajjad Zianezhad",
+    "Sajjad Ziaenejad",
+    "Sajjad Zianejad",
+  ],
+  "url": "{{ .Site.BaseURL }}",
+  "sameAs": [
+    "{{ .Site.BaseURL }}",
+    "{{ .Site.BaseURL }}about/"
+  ]
+}
+</script>
+{{ end }}
+
 <link rel='canonical' href='{{ .Permalink }}'>
 
 {{- partial "head/style.html" . -}}

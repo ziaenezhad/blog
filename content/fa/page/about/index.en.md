@@ -17,10 +17,12 @@ comments: false
 ---
 ## Introduction
 
-I'm Sajjad Ziaenejad Shirazi, a computer engineer 🙂. This is my personal blog about computer science and life.
+I'm Sajjad Ziaenezhad Shirazi, a computer engineer 🙂. This is my personal blog about computer science and life.
 
 ## My Contact
 
 If you had any quertion feel free to email me:
 
-shirazy.sajjad@gmail.com
+[shirazy.sajjad@gmail.com](mailto:shirazy.sajjad@gmail.com)
+
+My name may appear in slightly different forms online, such as **Sajjad Zianezhad**, **Sajjad Zianejad**, or **Sajjad Ziaenezhad**.
