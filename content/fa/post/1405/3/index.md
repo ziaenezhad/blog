@@ -1,7 +1,7 @@
 ---
 title: انتشار مقاله نقدی بر مبادی تصوّری صورت‌بندی برهان صدّیقین سینوی در نجات
 date: 2026-06-18
-noReadMore: false
+noReadMore: true
 tags: ["منطق جدید", "ابن‌سینا", "مقاله"]
 categories: [philosophy]
 ---
