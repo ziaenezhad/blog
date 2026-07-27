@@ -1,5 +1,5 @@
 ---
-title: چهارشنیه
+title: چهارشنبه
 date: 2024-04-03
 noReadMore: true
 tags: []

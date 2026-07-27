@@ -4,7 +4,7 @@ date: 2026-04-27
 noReadMore: false
 image: cover.jpg
 tags: ['وجود', 'ماهیت', 'ابن‌سینا', 'فلسفه اسلامی']
-categories: [translation]
+categories: [philosophy,translation]
 description: ترجمه مدخل دانشنامه فلسفه استنفورد
 ---
 

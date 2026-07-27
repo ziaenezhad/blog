@@ -5,7 +5,7 @@ noReadMore: false
 image: image.jpg
 description: ترجمه مدخل Characteristica Universalis دانشنامه ویکی پدیا
 tags: ['منطق جدید', 'فلسفه تحلیلی', 'لایب نیتز']
-categories: [logic]
+categories: [logic, translation]
 ---
 
 اصطلاح لاتینی Characteristica Universalis که معمولاً در انگلیسی به Universal Characteristic یا Universal Character ترجمه می‌شود، به زبانی صوری و جهان‌شمول اشاره دارد که گوتفرید ویلهلم لایبنیتس آن را در نظر داشت؛ زبانی که بتواند مفاهیم ریاضی، علمی و مابعدالطبیعی را به‌صورت دقیق بیان کند. لایبنیتس امیدوار بود با طراحی چنین زبانی، ابزاری فراهم آورد که بتوان در چارچوب یک محاسبه یا حساب منطقیِ جهان‌شمول (calculus ratiocinator) از آن بهره گرفت.
