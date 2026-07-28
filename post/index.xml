@@ -1,4 +1,316 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on رفتن</title><link>https://ziaenezhad.ir/post/</link><description>Recent content in Posts on رفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Mon, 27 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/post/index.xml" rel="self" type="application/rss+xml"/><item><title>نظام صوری</title><link>https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/</link><pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/image.jpg" alt="Featured image of post نظام صوری" />&lt;p>یک &lt;strong>نظام صوری&lt;/strong> (Formal System) یا &lt;strong>نظام استنتاجی&lt;/strong> (Deductive System)، ساختاری انتزاعی و صورت‌بندی‌شده از یک نظام اصل‌موضوعی (Axiomatic System) است که برای استنتاج قضایا (Theorems) از اصول موضوعه (Axioms)، با استفاده از قواعد استنتاج (Rules of Inference)، به کار می‌رود.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on رفتن</title><link>https://ziaenezhad.ir/post/</link><description>Recent content in Posts on رفتن</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ziaenezhad.ir/post/index.xml" rel="self" type="application/rss+xml"/><item><title>زبان صوری</title><link>https://ziaenezhad.ir/p/%D8%B2%D8%A8%D8%A7%D9%86-%D8%B5%D9%88%D8%B1%DB%8C/</link><pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D8%B2%D8%A8%D8%A7%D9%86-%D8%B5%D9%88%D8%B1%DB%8C/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D8%B2%D8%A8%D8%A7%D9%86-%D8%B5%D9%88%D8%B1%DB%8C/image.jpg" alt="Featured image of post زبان صوری" />&lt;p>در منطق، ریاضیات، علوم رایانه و زبان‌شناسی، &lt;strong>زبان صوری&lt;/strong> مجموعه‌ای از رشته‌ها (strings) است که نمادهای آن‌ها از مجموعه‌ای به نام &lt;strong>الفبا&lt;/strong> (alphabet) گرفته می‌شوند.&lt;/p>
+&lt;p>الفبای یک زبان صوری از نمادهایی تشکیل شده است که با الحاق (concatenation) به یکدیگر، رشته‌ها (که «واژه» نیز نامیده می‌شوند) را پدید می‌آورند.[1] واژه‌هایی که به یک زبان صوری خاص تعلق دارند، گاه &lt;strong>واژه‌های خوش‌ساخت&lt;/strong> (well-formed words) نامیده می‌شوند. یک زبان صوری معمولاً به‌وسیلهٔ یک &lt;strong>دستور زبان صوری&lt;/strong> (formal grammar)، مانند &lt;strong>دستور زبان منظم&lt;/strong> (regular grammar) یا &lt;strong>دستور زبان مستقل از متن&lt;/strong> (context-free grammar)، تعریف می‌شود.&lt;/p>
+&lt;p>در علوم رایانه، زبان‌های صوری از جمله مبنای تعریف دستور زبان‌های زبان‌های برنامه‌نویسی و نیز &lt;strong>زبان‌های طبیعی کنترل‌شده&lt;/strong> (controlled natural languages) هستند؛ یعنی نسخه‌های صورت‌بندی‌شده‌ای از زیرمجموعه‌هایی از زبان‌های طبیعی. در نظریهٔ پیچیدگی محاسباتی، مسائل تصمیم (decision problems) معمولاً به‌صورت زبان‌های صوری تعریف می‌شوند و &lt;strong>رده‌های پیچیدگی&lt;/strong> (complexity classes) نیز به‌صورت مجموعهٔ زبان‌های صوری‌ای تعریف می‌شوند که ماشین‌هایی با توان محاسباتی محدود قادر به تجزیه و تحلیل (parse) آن‌ها هستند. در منطق و مبانی ریاضیات، زبان‌های صوری برای بازنمایی &lt;strong>نحو&lt;/strong> (syntax) دستگاه‌های اصل موضوعی (axiomatic systems) به کار می‌روند و &lt;strong>صورت‌گرایی ریاضی&lt;/strong> (mathematical formalism) دیدگاهی فلسفی است که بر اساس آن، تمام ریاضیات را می‌توان به دست‌کاری نحوی زبان‌های صوری فروکاست.&lt;/p>
+&lt;p>&lt;strong>نظریهٔ زبان‌های صوری&lt;/strong> (formal language theory) عمدتاً به مطالعهٔ جنبه‌های صرفاً نحوی این زبان‌ها می‌پردازد؛ یعنی الگوهای ساختاری درونی آن‌ها. این شاخه از دل زبان‌شناسی پدید آمد و هدف آن، فهم نظم‌ها و قاعده‌مندی‌های نحوی زبان‌های طبیعی بود.&lt;/p>
+&lt;h2 id="تاریخچه">تاریخچه&lt;/h2>
+&lt;p>در قرن هفدهم، ایدهٔ &lt;strong>کاراکتریستیکای جهان‌شمول&lt;/strong> (Characteristica Universalis) را مطرح و توصیف کرد؛ زبانی جهان‌شمول و صوری که از &lt;strong>نمادهای تصویری&lt;/strong> (pictographs) بهره می‌گرفت. بعدها، مسئلهٔ &lt;strong>کدهای گاوس&lt;/strong> (Gauss codes) را بررسی کرد.&lt;/p>
+&lt;p>در میانهٔ قرن نوزدهم، حوزهٔ &lt;strong>جبر بولی&lt;/strong> (Boolean algebra) را بنیان نهاد که روشی صوری برای توصیف عملیات منطقی با استفاده از مقادیر صدق و عملگرهای مجموعه‌ای است. او در اثر خود، &lt;em>پژوهشی دربارهٔ قوانین اندیشه&lt;/em> (&lt;em>An Investigation of The Laws of Thought&lt;/em>)، نشان داد که استدلال منطقی را می‌توان به صورت معادلات نمادین بیان و دست‌کاری کرد.
+کوشید اندیشه‌های لایبنیتس را از طریق یک دستگاه نمادگذاری محقق سازد؛ دستگاهی که نخست در &lt;em>مفهوم‌نگاری&lt;/em> (&lt;em>Begriffsschrift&lt;/em>) (۱۸۷۹) طرح شد و سپس به‌صورت کامل‌تر در کتاب دو جلدی &lt;em>قوانین بنیادین حساب&lt;/em> (&lt;em>Grundgesetze der Arithmetik&lt;/em>) (۱۸۹۳/۱۹۰۳) بسط یافت. این دستگاه، «یک &lt;strong>زبان صوریِ زبان محض&lt;/strong>» (formal language of pure language) را توصیف می‌کرد.&lt;/p>
+&lt;p>در نیمهٔ نخست قرن بیستم، چندین تحول مهم در ارتباط با زبان‌های صوری رخ داد. بین سال‌های ۱۹۰۶ تا ۱۹۱۴ چهار مقاله دربارهٔ واژه‌ها و زبان منتشر کرد. آخرین مقالهٔ او چیزی را معرفی کرد که بعدها آن را &lt;strong>دستگاه‌های توئه&lt;/strong> (Thue Systems) نامید و نمونه‌ای اولیه از یک &lt;strong>مسئلهٔ تصمیم‌ناپذیر&lt;/strong> (undecidable problem) ارائه داد. پست بعدها همین مقاله را مبنای اثبات خود در سال ۱۹۴۷ قرار داد که نشان می‌داد «مسئلهٔ واژه برای نیم‌گروه‌ها به‌طور بازگشتی حل‌ناپذیر است»،و سپس &lt;strong>دستگاه متعارف پست&lt;/strong> (Post canonical system) را برای تولید زبان‌های صوری ابداع کرد.&lt;/p>
+&lt;p>در سال ۱۹۰۷، یک زبان صوری برای توصیف نقشه‌های مکانیکی (دستگاه‌های مکانیکی) معرفی کرد و آن را در مقالهٔ «دربارهٔ نظامی از نمادگذاری‌ها و علائمی برای تسهیل توصیف ماشین‌ها» (&lt;em>Sobre un sistema de notaciones y símbolos destinados a facilitar la descripción de las máquinas&lt;/em>) منتشر ساخت. این نظام را معادل یک &lt;strong>زبان برنامه‌نویسی&lt;/strong> برای کنترل عددی ماشین‌ابزارها ارزیابی کرده است.
+بازنمایی انتزاعی زبان‌های صوری و زبان‌های طبیعی را ابداع کرد که امروزه با عنوان &lt;strong>سلسله‌مراتب چامسکی&lt;/strong> (Chomsky hierarchy) شناخته می‌شود. در سال ۱۹۵۹، در ادامهٔ فعالیت خود در طراحی زبان برنامه‌نویسی &lt;strong>FORTRAN&lt;/strong>، &lt;strong>صورت بکوس–نائور&lt;/strong> (Backus–Naur Form) را برای توصیف نحو یک زبان برنامه‌نویسی سطح بالا ارائه کرد. نیز به‌عنوان دبیر و ویراستار گزارش &lt;strong>ALGOL 60&lt;/strong>، از &lt;strong>صورت بکوس–نائور&lt;/strong> برای توصیف بخش صوری زبان &lt;strong>ALGOL 60&lt;/strong> استفاده کرد.&lt;/p>
+&lt;h2 id="واژهها-بر-روی-یک-الفبا">واژه‌ها بر روی یک الفبا&lt;/h2>
+&lt;p>در زمینهٔ زبان‌های صوری، &lt;strong>الفبا&lt;/strong> (alphabet) می‌تواند هر &lt;strong>مجموعه‌ای&lt;/strong> باشد و عناصر آن را &lt;strong>حروف&lt;/strong> (letters) می‌نامند. یک الفبا ممکن است شامل تعداد &lt;strong>نامتناهی&lt;/strong> عنصر نیز باشد.(برای مثال، &lt;strong>منطق محمولات مرتبهٔ اول&lt;/strong> معمولاً با الفبایی بیان می‌شود که علاوه بر نمادهایی مانند ∧، ¬، ∀ و پرانتزها، شامل بی‌نهایت نماد از قبیل &lt;em>x₀&lt;/em>، &lt;em>x₁&lt;/em>، &lt;em>x₂&lt;/em>، &amp;hellip; نیز هست که نقش متغیرها را ایفا می‌کنند.) با این حال، بیشتر تعریف‌های نظریهٔ زبان‌های صوری، الفباهایی را در نظر می‌گیرند که متناهی‌اند و بسیاری از نتایج این نظریه نیز تنها دربارهٔ چنین الفباهایی برقرار است. در بسیاری از موارد، مناسب است که از یک الفبا به معنای متعارف کلمه، یا به‌طور کلی از هر &lt;strong>سامانهٔ کدگذاری نویسه&lt;/strong> (character encoding) متناهی، مانند &lt;strong>ASCII&lt;/strong> یا &lt;strong>Unicode&lt;/strong>، استفاده شود.&lt;/p>
+&lt;p>&lt;strong>واژه&lt;/strong> (word) بر روی یک الفبا، هر &lt;strong>دنبالهٔ متناهی&lt;/strong> (یعنی &lt;strong>رشته&lt;/strong> (string)) از حروف آن الفبا است. مجموعهٔ همهٔ واژه‌های ساخته‌شده بر روی یک الفبا با نماد Σ معمولاً با Σ&lt;sup>*&lt;/sup> نمایش داده می‌شود (که در آن از &lt;strong>ستارهٔ کلینی&lt;/strong> (Kleene star) استفاده شده است). &lt;strong>طول&lt;/strong> یک واژه برابر است با تعداد حروفی که آن واژه از آن‌ها تشکیل شده است. برای هر الفبا، تنها یک واژه با طول صفر وجود دارد که آن را &lt;strong>واژهٔ تهی&lt;/strong> (empty word) می‌نامند و معمولاً با نمادهای &lt;strong>e&lt;/strong>، &lt;strong>ε&lt;/strong>، &lt;strong>λ&lt;/strong> یا &lt;strong>Λ&lt;/strong> نمایش می‌دهند. با عمل &lt;strong>الحاق&lt;/strong> (concatenation) می‌توان دو واژه را به یکدیگر متصل کرد و واژهٔ جدیدی ساخت که طول آن برابر با مجموع طول دو واژهٔ اولیه است. همچنین، حاصل الحاق هر واژه با واژهٔ تهی، همان واژهٔ اولیه خواهد بود.&lt;/p>
+&lt;p>در برخی کاربردها، به‌ویژه در &lt;strong>منطق&lt;/strong>، به جای واژهٔ «الفبا» از اصطلاح &lt;strong>واژگان&lt;/strong> (vocabulary) استفاده می‌شود و به جای «واژه» نیز از اصطلاحات &lt;strong>فرمول&lt;/strong> (formula) یا &lt;strong>جمله&lt;/strong> (sentence) بهره می‌گیرند. در این صورت، استعارهٔ «حرف/واژه» جای خود را به استعارهٔ «واژه/جمله» می‌دهد.&lt;/p>
+&lt;h2 id="تعریف">تعریف&lt;/h2>
+&lt;p>با فرض اینکه \(\Sigma\) یک مجموعهٔ ناتهی باشد، یک &lt;strong>زبان صوری \(L\) بر روی \(\Sigma\)&lt;/strong>، زیرمجموعه‌ای از \(\Sigma^{_}\) است؛ که در آن \(\Sigma^{_}\) مجموعهٔ &lt;strong>تمام واژه‌های متناهیِ ممکن بر روی \(\Sigma\)&lt;/strong> است. مجموعهٔ \(\Sigma\) را &lt;strong>الفبای \(L\)&lt;/strong> می‌نامیم.&lt;/p>
+&lt;p>از سوی دیگر، اگر یک زبان صوری \(L\) بر روی \(\Sigma\) داشته باشیم، یک واژهٔ \(w \in \Sigma^{\*}\) زمانی &lt;strong>خوش‌ساخت&lt;/strong> (well-formed) است که:&lt;/p>
+\[
+w \in L
+\]&lt;p>باشد. به همین ترتیب، یک عبارت \(E \subseteq \Sigma^{\*}\) نیز &lt;strong>خوش‌ساخت&lt;/strong> است اگر:&lt;/p>
+\[
+E \subseteq L
+\]&lt;p>باشد. گاهی یک زبان صوری \(L\) بر روی \(\Sigma\)، دارای مجموعه‌ای از قواعد و محدودیت‌های روشن برای ایجاد همهٔ واژه‌های خوش‌ساخت ممکن از میان \(\Sigma^{\*}\) است.&lt;/p>
+&lt;p>در علوم رایانه و ریاضیات، که معمولاً با &lt;strong>زبان‌های طبیعی&lt;/strong> سروکار ندارند، صفت «صوری» (formal) اغلب به دلیل زائد بودن حذف می‌شود. از سوی دیگر، هنگامی که الفبای \(\Sigma\) از زمینهٔ بحث روشن باشد، می‌توان صرفاً گفت «زبان صوری \(L\)».&lt;/p>
+&lt;p>اگرچه نظریهٔ زبان‌های صوری معمولاً به زبان‌های صوری‌ای می‌پردازد که با برخی قواعد نحوی توصیف می‌شوند، تعریف واقعی مفهوم «زبان صوری» تنها همان چیزی است که در بالا بیان شد: &lt;strong>مجموعه‌ای (که ممکن است نامتناهی باشد) از رشته‌های با طول متناهی که از یک الفبای معین ساخته شده‌اند؛ نه بیشتر و نه کمتر.&lt;/strong>&lt;/p>
+&lt;p>در عمل، زبان‌های بسیاری وجود دارند که می‌توان آن‌ها را با قواعد توصیف کرد؛ مانند &lt;strong>زبان‌های منظم&lt;/strong> (regular languages) یا &lt;strong>زبان‌های مستقل از متن&lt;/strong> (context-free languages). مفهوم &lt;strong>دستور زبان صوری&lt;/strong> (formal grammar) ممکن است به مفهوم شهودی «زبان» نزدیک‌تر باشد؛ یعنی زبانی که با قواعد نحوی توصیف شده است. با نوعی تسامح در تعریف، معمولاً یک زبان صوری خاص را همراه با یک دستور زبان صوری در نظر می‌گیرند که آن را توصیف می‌کند.&lt;/p>
+&lt;h2 id="مثالها">مثال‌ها&lt;/h2>
+&lt;p>قواعد زیر یک زبان صوری $L$ را بر روی الفبای $\Sigma = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, +, =}$ توصیف می‌کنند:&lt;/p>
+&lt;ul>
+&lt;li>هر رشتهٔ ناتهی که شامل علامت‌های «+» یا «=» نباشد و با «0» آغاز نشود، در $L$ قرار دارد.&lt;/li>
+&lt;li>رشتهٔ «0» در $L$ قرار دارد.&lt;/li>
+&lt;li>یک رشتهٔ شامل علامت «=» در $L$ قرار دارد اگر و تنها اگر دقیقاً یک علامت «=» داشته باشد و این علامت دو رشتهٔ معتبر از $L$ را از یکدیگر جدا کند.&lt;/li>
+&lt;li>یک رشتهٔ شامل علامت «+» اما فاقد علامت «=» در $L$ قرار دارد اگر و تنها اگر هر علامت «+» درون آن، دو رشتهٔ معتبر از $L$ را از یکدیگر جدا کند.&lt;/li>
+&lt;li>هیچ رشته‌ای جز رشته‌هایی که از قواعد پیشین نتیجه می‌شوند، در $L$ قرار ندارد.&lt;/li>
+&lt;/ul>
+&lt;p>بر اساس این قواعد، رشتهٔ «23+4=555» در $L$ قرار دارد، اما رشتهٔ «=234=+» در $L$ قرار ندارد. این زبان صوری، &lt;strong>اعداد طبیعی&lt;/strong>، &lt;strong>جمع‌های خوش‌ساخت&lt;/strong> و &lt;strong>تساوی‌های حاصل از جمعِ خوش‌ساخت&lt;/strong> را بیان می‌کند؛ اما فقط آنچه را که این عبارات &lt;strong>به لحاظ ظاهری دارند&lt;/strong> (یعنی &lt;strong>نحو&lt;/strong> (syntax) آن‌ها) بیان می‌کند، نه آنچه را که &lt;strong>معنا می‌دهند&lt;/strong> (&lt;strong>معناشناسی&lt;/strong> (semantics) آن‌ها).&lt;/p>
+&lt;p>برای مثال، در هیچ‌کدام از این قواعد اشاره‌ای نشده است که «0» به معنای عدد صفر است، «+» به معنای عمل جمع است، یا اینکه «23+4=555» گزاره‌ای نادرست است و مانند آن.&lt;/p>
+&lt;h2 id="ساختها">ساخت‌ها&lt;/h2>
+&lt;p>برای زبان‌های متناهی، می‌توان همهٔ واژه‌های خوش‌ساخت را به‌صورت صریح فهرست کرد. برای مثال، می‌توان زبانی مانند $L$ را به شکل زیر توصیف کرد:&lt;/p>
+$$
+L = \{a, b, ab, cba\}
+$$&lt;p>حالت تباهیدهٔ (degenerate) این ساخت، &lt;strong>زبان تهی&lt;/strong> (empty language) است که هیچ واژه‌ای ندارد:&lt;/p>
+$$
+L = \varnothing
+$$&lt;p>با این حال، حتی بر روی یک الفبای متناهی (و ناتهی) مانند $\Sigma = {a, b}$، تعداد نامتناهی‌ای از واژه‌های با طول متناهی وجود دارند که می‌توانند ساخته شوند؛ مانند:&lt;/p>
+&lt;p>«a»، «abb»، «ababba»، «aaababbbbaab»، &amp;hellip;&lt;/p>
+&lt;p>بنابراین، زبان‌های صوری معمولاً نامتناهی هستند و توصیف یک زبان صوری نامتناهی به سادگی نوشتن&lt;/p>
+$$
+L = \{a, b, ab, cba\}
+$$&lt;p>نیست.&lt;/p>
+&lt;p>در ادامه چند نمونه از زبان‌های صوری آمده است:&lt;/p>
+&lt;ul>
+&lt;li>$L = \Sigma^{*}$، یعنی مجموعهٔ &lt;strong>تمام واژه‌ها بر روی $\Sigma$&lt;/strong>.&lt;/li>
+&lt;li>$L = {a}^{*} = {a^{n}}$، که در آن $n$ بر مجموعهٔ اعداد طبیعی تغییر می‌کند و «$a^{n}$» به معنای تکرار نماد «a» به تعداد $n$ بار است (این مجموعه شامل واژه‌هایی است که فقط از نماد «a» تشکیل شده‌اند).&lt;/li>
+&lt;li>مجموعهٔ برنامه‌های دارای نحو صحیح در یک زبان برنامه‌نویسی معین (که نحو آن معمولاً به‌وسیلهٔ یک &lt;strong>دستور زبان مستقل از متن&lt;/strong> (context-free grammar) تعریف می‌شود).&lt;/li>
+&lt;li>مجموعهٔ ورودی‌هایی که یک ماشین تورینگ معین بر روی آن‌ها متوقف می‌شود.&lt;/li>
+&lt;li>مجموعهٔ رشته‌های بیشینه از نویسه‌های &lt;strong>حرفی–عددی&lt;/strong> (alphanumeric) در قالب &lt;strong>ASCII&lt;/strong> در این خط؛ یعنی مجموعهٔ:&lt;/li>
+&lt;/ul>
+$$
+\{the, set, of, maximal, strings, alphanumeric, ASCII, characters, on, this, line, i, e\}
+$$&lt;h2 id="صورتگراییهای-مشخصسازی-زبان">صورت‌گرایی‌های مشخص‌سازی زبان&lt;/h2>
+&lt;p>زبان‌های صوری به‌عنوان ابزارهایی در رشته‌های مختلف مورد استفاده قرار می‌گیرند. با این حال، &lt;strong>نظریهٔ زبان‌های صوری&lt;/strong> به‌ندرت به زبان‌های خاص می‌پردازد (مگر به‌عنوان مثال)، بلکه عمدتاً به مطالعهٔ انواع مختلف &lt;strong>صورت‌گرایی‌ها&lt;/strong> (formalisms) برای توصیف زبان‌ها می‌پردازد.&lt;/p>
+&lt;p>برای مثال، یک زبان را می‌توان به یکی از شیوه‌های زیر تعریف کرد:&lt;/p>
+&lt;ul>
+&lt;li>مجموعهٔ رشته‌هایی که توسط یک &lt;strong>دستور زبان صوری&lt;/strong> (formal grammar) تولید می‌شوند؛&lt;/li>
+&lt;li>مجموعهٔ رشته‌هایی که توسط یک &lt;strong>عبارت منظم&lt;/strong> (regular expression) خاص توصیف یا با آن تطبیق داده می‌شوند؛&lt;/li>
+&lt;li>مجموعهٔ رشته‌هایی که توسط یک &lt;strong>ماشین&lt;/strong> (automaton)، مانند یک &lt;strong>ماشین تورینگ&lt;/strong> (Turing machine) یا &lt;strong>ماشین متناهی‌حالت&lt;/strong> (finite-state automaton)، پذیرفته می‌شوند؛&lt;/li>
+&lt;li>مجموعهٔ رشته‌هایی که برای آن‌ها یک &lt;strong>رویهٔ تصمیم&lt;/strong> (decision procedure) ــ یعنی یک &lt;strong>الگوریتم&lt;/strong> که مجموعه‌ای از پرسش‌های مرتبط با پاسخ «بله/خیر» را مطرح می‌کند ــ پاسخ «بله» تولید می‌کند.&lt;/li>
+&lt;/ul>
+&lt;p>پرسش‌های معمول دربارهٔ چنین صورت‌گرایی‌هایی عبارت‌اند از:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>توان بیانی آن‌ها چیست؟&lt;/strong>&lt;br>
+(آیا صورت‌گرایی $X$ می‌تواند هر زبانی را که صورت‌گرایی $Y$ توصیف می‌کند، توصیف کند؟ آیا می‌تواند زبان‌های دیگری را نیز توصیف کند؟)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>قابلیت تشخیص‌پذیری آن‌ها چگونه است؟&lt;/strong>&lt;br>
+(تصمیم‌گیری دربارهٔ اینکه آیا یک واژهٔ مشخص به زبانی تعلق دارد که توسط صورت‌گرایی $X$ توصیف شده است، چقدر دشوار است؟)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>قابلیت مقایسهٔ آن‌ها چگونه است؟&lt;/strong>&lt;br>
+(تصمیم‌گیری دربارهٔ اینکه آیا دو زبان ــ یکی توصیف‌شده با صورت‌گرایی $X$ و دیگری توصیف‌شده با صورت‌گرایی $Y$، یا دوباره با $X$ ــ در واقع یک زبان واحد هستند، چقدر دشوار است؟)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>با کمال شگفتی، در بسیاری از موارد پاسخ این مسائل تصمیم چنین است: «اصلاً امکان انجام آن وجود ندارد» یا «هزینهٔ آن بسیار زیاد است» (همراه با توصیفی از میزان این هزینه). ازاین‌رو، نظریهٔ زبان‌های صوری یکی از حوزه‌های کاربرد مهم &lt;strong>نظریهٔ محاسبه‌پذیری&lt;/strong> (computability theory) و &lt;strong>نظریهٔ پیچیدگی محاسباتی&lt;/strong> (computational complexity theory) به شمار می‌آید.&lt;/p>
+&lt;p>زبان‌های صوری را می‌توان بر اساس &lt;strong>سلسله‌مراتب چامسکی&lt;/strong> (Chomsky hierarchy) طبقه‌بندی کرد؛ این طبقه‌بندی بر پایهٔ توان بیانی دستور زبان مولد آن‌ها و همچنین پیچیدگی &lt;strong>ماشین تشخیص‌دهنده&lt;/strong> (recognizing automaton) آن‌ها انجام می‌شود.&lt;/p>
+&lt;p>&lt;strong>دستور زبان‌های مستقل از متن&lt;/strong> (context-free grammars) و &lt;strong>دستور زبان‌های منظم&lt;/strong> (regular grammars) تعادلی مناسب میان توان بیانی و سهولت &lt;strong>تجزیه و تحلیل نحوی&lt;/strong> (parsing) فراهم می‌کنند و در کاربردهای عملی به‌طور گسترده مورد استفاده قرار می‌گیرند.&lt;/p>
+&lt;h2 id="فرانحو">فرانحو&lt;/h2>
+&lt;p>&lt;strong>فرانحو&lt;/strong> (metasyntax) نحوی است که برای تعریف نحو یک &lt;strong>زبان برنامه‌نویسی&lt;/strong> یا یک &lt;strong>زبان صوری&lt;/strong> به کار می‌رود. فرانحو، ساختار و ترکیب مجاز عبارت‌ها و جمله‌های یک &lt;strong>فرازبان&lt;/strong> (metalanguage) را توصیف می‌کند؛ فرازبانی که برای توصیف یک &lt;strong>زبان طبیعی&lt;/strong> یا یک &lt;strong>زبان برنامه‌نویسی رایانه‌ای&lt;/strong> مورد استفاده قرار می‌گیرد.[13]&lt;/p>
+&lt;p>برخی از فرازبان‌های صوری پرکاربرد برای زبان‌های رایانه‌ای عبارت‌اند از:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>صورت بکوس–نائور&lt;/strong> (Backus–Naur Form یا BNF)&lt;/li>
+&lt;li>&lt;strong>صورت بسط‌یافتهٔ بکوس–نائور&lt;/strong> (Extended Backus–Naur Form یا EBNF)&lt;/li>
+&lt;li>&lt;strong>نمادگذاری نحوی ویرث&lt;/strong> (Wirth Syntax Notation یا WSN)&lt;/li>
+&lt;li>&lt;strong>صورت افزودهٔ بکوس–نائور&lt;/strong> (Augmented Backus–Naur Form یا ABNF)&lt;/li>
+&lt;/ul>
+&lt;p>فرازبان‌ها نیز هرکدام فرانحوی مخصوص به خود دارند که از &lt;strong>نمادهای پایانه‌ای&lt;/strong> (terminal symbols)، &lt;strong>نمادهای ناپایانه‌ای&lt;/strong> (nonterminal symbols) و &lt;strong>فرا‌نمادها&lt;/strong> (metasymbols) تشکیل شده است.&lt;/p>
+&lt;p>یک &lt;strong>نماد پایانه‌ای&lt;/strong>، مانند یک واژه یا یک توکن، ساختاری مستقل در زبانی است که در حال تعریف شدن است. یک &lt;strong>نماد ناپایانه‌ای&lt;/strong> نشان‌دهندهٔ یک &lt;strong>مقولهٔ نحوی&lt;/strong> (syntactic category) است؛ مقوله‌ای که یک یا چند ساختار معتبر عبارتی یا جمله‌ای را تعریف می‌کند که از یک زیرمجموعهٔ $n$ عنصری تشکیل شده‌اند.&lt;/p>
+&lt;p>&lt;strong>فرا‌نمادها&lt;/strong> اطلاعات نحوی لازم را برای اهداف &lt;strong>دلالت‌گذاری&lt;/strong> (denotational purposes) در یک فرانحو مشخص فراهم می‌کنند. البته پایانه‌ها، ناپایانه‌ها و فرانمادها در همهٔ فرازبان‌ها کاربرد ندارند.&lt;/p>
+&lt;p>معمولاً فرازبان مربوط به زبان‌های در سطح توکن (که به‌صورت رسمی &lt;strong>زبان‌های منظم&lt;/strong> (regular languages) نامیده می‌شوند) دارای نمادهای ناپایانه نیست؛ زیرا در این زبان‌های منظم، مسئلهٔ &lt;strong>تودرتویی&lt;/strong> (nesting) مطرح نیست.&lt;/p>
+&lt;p>زبان انگلیسی، هنگامی که به‌عنوان فرازبانی برای توصیف برخی زبان‌ها به کار می‌رود، دارای فرانماد نیست؛ زیرا تمام توضیحات را می‌توان با استفاده از عبارت‌های انگلیسی بیان کرد.&lt;/p>
+&lt;p>تنها برخی فرازبان‌های صوری که برای توصیف زبان‌های بازگشتی (که به‌صورت رسمی &lt;strong>زبان‌های مستقل از متن&lt;/strong> (context-free languages) نامیده می‌شوند) به کار می‌روند، در فرانحو خود دارای هر سه دستهٔ &lt;strong>نمادهای پایانه‌ای، نمادهای ناپایانه‌ای و فرانمادها&lt;/strong> هستند.&lt;/p>
+&lt;h2 id="عملگرها-بر-روی-زبانها">عملگرها بر روی زبان‌ها&lt;/h2>
+&lt;p>برخی عملگرها بر روی زبان‌ها کاربرد گسترده‌ای دارند. این عملگرها شامل عملگرهای استاندارد مجموعه‌ای، مانند &lt;strong>اجتماع&lt;/strong> (union)، &lt;strong>اشتراک&lt;/strong> (intersection) و &lt;strong>متمم&lt;/strong> (complement) هستند. دستهٔ دیگری از عملگرها، شامل اعمالِ جزءبه‌جزءِ عملگرهای مربوط به رشته‌ها است.&lt;/p>
+&lt;p>مثال: فرض کنید $L_1$ و $L_2$ زبان‌هایی بر روی یک الفبای مشترک $\Sigma$ باشند.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>الحاق&lt;/strong> (concatenation) زبان‌های $L_1$ و $L_2$، یعنی $L_1 \cdot L_2$، شامل تمام رشته‌هایی به شکل $vw$ است؛ به‌گونه‌ای که $v$ رشته‌ای از $L_1$ و $w$ رشته‌ای از $L_2$ باشد.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>اشتراک&lt;/strong> $L_1 \cap L_2$ از زبان‌های $L_1$ و $L_2$ شامل تمام رشته‌هایی است که در هر دو زبان وجود دارند.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>متمم&lt;/strong> $\neg L_1$ از $L_1$ نسبت به $\Sigma$ شامل تمام رشته‌های ساخته‌شده از $\Sigma$ است که در $L_1$ قرار ندارند.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>ستارهٔ کلینی&lt;/strong> (Kleene star): زبانی شامل تمام واژه‌هایی که از الحاق صفر یا تعداد بیشتری از واژه‌های موجود در زبان اصلی ساخته شده‌اند.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>وارون‌سازی&lt;/strong> (Reversal):&lt;/p>
+&lt;ul>
+&lt;li>اگر $\varepsilon$ واژهٔ تهی باشد، آنگاه:&lt;/li>
+&lt;/ul>
+$$
+\varepsilon^R = \varepsilon
+$$&lt;ul>
+&lt;li>برای هر واژهٔ ناتهی $w = \sigma_1 \cdots \sigma_n$ (که در آن $\sigma_1, \ldots, \sigma_n$ عناصر یک الفبای مشخص هستند)، داریم:&lt;/li>
+&lt;/ul>
+$$
+w^R = \sigma_n \cdots \sigma_1
+$$&lt;ul>
+&lt;li>بنابراین، برای یک زبان صوری $L$:&lt;/li>
+&lt;/ul>
+$$
+L^R = \{ w^R \mid w \in L \}
+$$&lt;/li>
+&lt;li>
+&lt;p>&lt;strong>همریختی رشته‌ای&lt;/strong> (String homomorphism)&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>این‌گونه &lt;strong>عملگرهای رشته‌ای&lt;/strong> برای بررسی &lt;strong>ویژگی‌های بستاری&lt;/strong> (closure properties) رده‌های مختلف زبان‌ها به کار می‌روند. یک ردهٔ زبانی نسبت به یک عملگر خاص &lt;strong>بسته&lt;/strong> است، اگر اعمال آن عملگر بر زبان‌های موجود در آن رده، همواره زبانی از همان رده تولید کند.&lt;/p>
+&lt;p>برای مثال، زبان‌های مستقل از متن (context-free languages) نسبت به اجتماع، الحاق و اشتراک با زبان‌های منظم بسته هستند؛ اما نسبت به اشتراک یا متمم به‌طور کلی بسته نیستند.&lt;/p>
+&lt;p>نظریهٔ &lt;strong>تریوها&lt;/strong> (trios) و &lt;strong>خانواده‌های انتزاعی زبان‌ها&lt;/strong> (abstract families of languages) به مطالعهٔ عمومی‌ترین ویژگی‌های بستاری خانواده‌های زبان‌ها می‌پردازند.[1]&lt;/p>
+&lt;h2 id="ویژگیهای-بستاری-خانوادههای-زبانها">ویژگی‌های بستاری خانواده‌های زبان‌ها&lt;/h2>
+&lt;p>در جدول زیر، $L_1$ Op $L_2$ نشان‌دهندهٔ اعمال یک عملگر بر دو زبان $L_1$ و $L_2$ است، که هر دو متعلق به خانوادهٔ زبانی مشخص‌شده در ستون مربوطه هستند.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>عملگر&lt;/th>
+&lt;th>تعریف&lt;/th>
+&lt;th>منظم (Regular)&lt;/th>
+&lt;th>DCFL&lt;/th>
+&lt;th>مستقل از متن (CFL)&lt;/th>
+&lt;th>نمایه‌ای (IND)&lt;/th>
+&lt;th>حساس به متن (CSL)&lt;/th>
+&lt;th>بازگشتی (Recursive)&lt;/th>
+&lt;th>شمارش‌پذیر بازگشتی (RE)&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>اجتماع&lt;/td>
+&lt;td>$L_1 \cup L_2 = {w \mid w \in L_1 \lor w \in L_2}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>اشتراک&lt;/td>
+&lt;td>$L_1 \cap L_2 = {w \mid w \in L_1 \land w \in L_2}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>متمم&lt;/td>
+&lt;td>$\neg L_1 = {w \mid w \notin L_1}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>الحاق&lt;/td>
+&lt;td>$L_1 \cdot L_2 = {wz \mid w \in L_1 \land z \in L_2}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>ستارهٔ کلینی (Kleene star)&lt;/td>
+&lt;td>$$ L_1^{_} = \{\varepsilon\} \cup \{wz \mid w \in L_1 \land z \in L_1^{_}\} $$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>همریختی رشته‌ای $h$&lt;/td>
+&lt;td>$h(L_1) = {h(w) \mid w \in L_1}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>همریختی رشته‌ای بدون $\varepsilon$، یعنی $h$&lt;/td>
+&lt;td>$h(L_1) = {h(w) \mid w \in L_1}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>جانشینی $\varphi$&lt;/td>
+&lt;td>$\varphi(L_1)=\bigcup_{\sigma_1\cdots\sigma_n\in L_1}\varphi(\sigma_1)\cdot&amp;hellip;\cdot\varphi(\sigma_n)$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>همریختی معکوس $h^{-1}$&lt;/td>
+&lt;td>$h^{-1}(L_1)=\bigcup_{w\in L_1}h^{-1}(w)$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>وارون‌سازی&lt;/td>
+&lt;td>$L^R={w^R \mid w\in L}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>خیر&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>اشتراک با یک زبان منظم $R$&lt;/td>
+&lt;td>$L\cap R={w\mid w\in L \land w\in R}$&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;td>بله&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h2 id="کاربردها">کاربردها&lt;/h2>
+&lt;h3 id="زبانهای-برنامهنویسی">زبان‌های برنامه‌نویسی&lt;/h3>
+&lt;p>یک &lt;strong>کامپایلر&lt;/strong> (compiler) معمولاً دارای دو مؤلفهٔ متمایز است. یک &lt;strong>تحلیل‌گر واژگانی&lt;/strong> (lexical analyzer) که گاهی با استفاده از ابزاری مانند &lt;code>lex&lt;/code> تولید می‌شود، &lt;strong>توکن‌های دستور زبان زبان برنامه‌نویسی&lt;/strong> را شناسایی می‌کند؛ برای مثال:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>شناسه‌ها&lt;/strong> (identifiers)&lt;/li>
+&lt;li>&lt;strong>کلیدواژه‌ها&lt;/strong> (keywords)&lt;/li>
+&lt;li>&lt;strong>مقادیر عددی و رشته‌ای&lt;/strong> (numeric and string literals)&lt;/li>
+&lt;li>علائم نقطه‌گذاری و نمادهای عملگرها&lt;/li>
+&lt;/ul>
+&lt;p>که خود این عناصر نیز به‌وسیلهٔ یک زبان صوری ساده‌تر، معمولاً از طریق &lt;strong>عبارت‌های منظم&lt;/strong> (regular expressions)، مشخص می‌شوند.&lt;/p>
+&lt;p>در ابتدایی‌ترین سطح مفهومی، یک &lt;strong>تجزیه‌گر&lt;/strong> (parser) ــ که گاهی با استفاده از مولدی مانند &lt;code>yacc&lt;/code> تولید می‌شود ــ تلاش می‌کند مشخص کند که آیا برنامهٔ مبدأ از نظر نحوی معتبر است یا نه؛ یعنی آیا با توجه به دستور زبان زبان برنامه‌نویسی‌ای که کامپایلر برای آن ساخته شده است، &lt;strong>خوش‌ساخت&lt;/strong> (well-formed) هست یا خیر.&lt;/p>
+&lt;p>البته کامپایلرها صرفاً کد مبدأ را تجزیه نمی‌کنند؛ بلکه معمولاً آن را به قالبی اجرایی ترجمه می‌کنند. به همین دلیل، یک تجزیه‌گر معمولاً بیش از یک پاسخ بله/خیر تولید می‌کند و اغلب یک &lt;strong>درخت نحو انتزاعی&lt;/strong> (abstract syntax tree) ایجاد می‌کند.&lt;/p>
+&lt;p>این درخت در مراحل بعدی کامپایلر مورد استفاده قرار می‌گیرد تا در نهایت یک &lt;strong>فایل اجرایی&lt;/strong> (executable) شامل &lt;strong>کد ماشین&lt;/strong> (machine code) که مستقیماً روی سخت‌افزار اجرا می‌شود، یا نوعی &lt;strong>کد میانی&lt;/strong> (intermediate code) که برای اجرا به یک &lt;strong>ماشین مجازی&lt;/strong> (virtual machine) نیاز دارد، تولید شود.&lt;/p>
+&lt;hr>
+&lt;h3 id="نظریهها-نظامها-و-برهانهای-صوری">نظریه‌ها، نظام‌ها و برهان‌های صوری&lt;/h3>
+&lt;p>در &lt;strong>منطق ریاضی&lt;/strong>، یک &lt;strong>نظریهٔ صوری&lt;/strong> (formal theory) مجموعه‌ای از &lt;strong>جملات&lt;/strong> (sentences) است که در یک زبان صوری بیان شده‌اند.&lt;/p>
+&lt;p>یک &lt;strong>نظام صوری&lt;/strong> (formal system) (که &lt;strong>حساب منطقی&lt;/strong> (logical calculus) یا &lt;strong>نظام منطقی&lt;/strong> (logical system) نیز نامیده می‌شود) از یک زبان صوری به همراه یک &lt;strong>دستگاه استنتاجی&lt;/strong> (deductive apparatus) (که &lt;strong>نظام استنتاجی&lt;/strong> (deductive system) نیز نامیده می‌شود) تشکیل شده است.&lt;/p>
+&lt;p>دستگاه استنتاجی ممکن است شامل مجموعه‌ای از &lt;strong>قواعد تبدیل&lt;/strong> (transformation rules) باشد که می‌توان آن‌ها را به‌عنوان قواعد معتبر استنتاج تفسیر کرد، یا شامل مجموعه‌ای از &lt;strong>اصول موضوعه&lt;/strong> (axioms) باشد، یا هر دو را دربرگیرد.&lt;/p>
+&lt;p>یک نظام صوری برای &lt;strong>استخراج&lt;/strong> (derive) یک عبارت از یک یا چند عبارت دیگر به کار می‌رود.&lt;/p>
+&lt;p>اگرچه یک زبان صوری را می‌توان با مجموعهٔ فرمول‌های آن شناسایی کرد، یک نظام صوری را نمی‌توان به همین شکل با قضایای آن یکی دانست. برای مثال، دو نظام صوری $\mathcal{FS}$ و $\mathcal{FS&amp;rsquo;}$ ممکن است تمام قضایای یکسانی داشته باشند، اما از نظر مهمی در جنبه‌های &lt;strong>نظریهٔ برهان&lt;/strong> (proof theory) با یکدیگر تفاوت داشته باشند؛ برای نمونه، ممکن است فرمول $A$ در یک نظام پیامد نحوی (syntactic consequence) فرمول $B$ باشد، اما در نظام دیگر چنین نباشد.&lt;/p>
+&lt;p>یک &lt;strong>برهان صوری&lt;/strong> (formal proof) یا &lt;strong>اشتقاق&lt;/strong> (derivation)، یک دنبالهٔ متناهی از فرمول‌های خوش‌ساخت است (که ممکن است به‌عنوان جمله‌ها یا گزاره‌ها تفسیر شوند) که هر یک از آن‌ها یا یک اصل موضوعه است یا از فرمول‌های پیشین در این دنباله، به‌وسیلهٔ یک &lt;strong>قاعدهٔ استنتاج&lt;/strong> (rule of inference) نتیجه می‌شود.&lt;/p>
+&lt;p>آخرین جمله در این دنباله، یک &lt;strong>قضیه&lt;/strong> (theorem) از نظام صوری است. برهان‌های صوری اهمیت دارند، زیرا قضایای آن‌ها می‌توانند به‌عنوان گزاره‌های صادق تفسیر شوند.&lt;/p>
+&lt;hr>
+&lt;h3 id="تفسیرها-و-مدلها">تفسیرها و مدل‌ها&lt;/h3>
+&lt;p>زبان‌های صوری از نظر ماهیت کاملاً &lt;strong>نحوی&lt;/strong> (syntactic) هستند، اما می‌توان برای آن‌ها &lt;strong>معناشناسی&lt;/strong> (semantics) تعریف کرد که به عناصر زبان معنا می‌بخشد.&lt;/p>
+&lt;p>برای مثال، در منطق ریاضی، مجموعهٔ فرمول‌های ممکن یک منطق خاص، یک زبان صوری است و یک &lt;strong>تفسیر&lt;/strong> (interpretation) به هر یک از فرمول‌ها معنا اختصاص می‌دهد؛ معمولاً این معنا به شکل یک &lt;strong>ارزش صدق&lt;/strong> (truth value) است.&lt;/p>
+&lt;p>مطالعهٔ تفسیرهای زبان‌های صوری، &lt;strong>معناشناسی صوری&lt;/strong> (formal semantics) نامیده می‌شود. در منطق ریاضی، این کار اغلب در قالب &lt;strong>نظریهٔ مدل&lt;/strong> (model theory) انجام می‌شود.&lt;/p>
+&lt;p>در نظریهٔ مدل، اصطلاحاتی که در یک فرمول ظاهر می‌شوند، به‌عنوان اشیایی درون &lt;strong>ساختارهای ریاضی&lt;/strong> (mathematical structures) تفسیر می‌شوند و قواعد ثابتِ تفسیر ترکیبی تعیین می‌کنند که چگونه ارزش صدق یک فرمول از تفسیر اصطلاحات آن به دست آید.&lt;/p>
+&lt;p>یک &lt;strong>مدل&lt;/strong> (model) برای یک فرمول، تفسیری از اصطلاحات است که در آن فرمول صادق می‌شود.&lt;/p></description></item><item><title>نظام صوری</title><link>https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/</link><pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate><guid>https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/</guid><description>&lt;img src="https://ziaenezhad.ir/p/%D9%86%D8%B8%D8%A7%D9%85-%D8%B5%D9%88%D8%B1%DB%8C/image.jpg" alt="Featured image of post نظام صوری" />&lt;p>یک &lt;strong>نظام صوری&lt;/strong> (Formal System) یا &lt;strong>نظام استنتاجی&lt;/strong> (Deductive System)، ساختاری انتزاعی و صورت‌بندی‌شده از یک نظام اصل‌موضوعی (Axiomatic System) است که برای استنتاج قضایا (Theorems) از اصول موضوعه (Axioms)، با استفاده از قواعد استنتاج (Rules of Inference)، به کار می‌رود.&lt;/p>
 &lt;p>در سال ۱۹۲۱، دیوید هیلبرت (David Hilbert) پیشنهاد کرد که نظام‌های صوری به‌عنوان بنیان دانش در ریاضیات مورد استفاده قرار گیرند. با این حال، در سال ۱۹۳۱، کورت گودل (Kurt Gödel) اثبات کرد که هر نظام صوری سازگار (Consistent) که به اندازهٔ کافی نیرومند باشد تا حساب مقدماتی را بیان کند، نمی‌تواند کامل بودن (Completeness) خود را اثبات کند. این نتیجه عملاً نشان داد که برنامهٔ هیلبرت، با صورتی که ارائه شده بود، امکان‌پذیر نیست.&lt;/p>
 &lt;p>اصطلاح &lt;strong>فرمالیسم&lt;/strong> (Formalism) گاهی به‌طور تقریبی مترادف با «نظام صوری» به کار می‌رود؛ اما این اصطلاح همچنین می‌تواند به سبک خاصی از نمادگذاری اشاره داشته باشد؛ برای مثال، نمادگذاری برا-کت (Bra–Ket Notation) که توسط پل دیراک (Paul Dirac) ارائه شد.&lt;/p>
 &lt;h2 id="مفاهیم">مفاهیم&lt;/h2>
