@@ -65,8 +65,9 @@ a {
   }
 }
 
-.katex-display {
-  direction: ltr;
+.katex, .katex-display {
+    direction: ltr;
+    unicode-bidi: isolate;
 }
 
 .sidebar header .site-subtitle {
