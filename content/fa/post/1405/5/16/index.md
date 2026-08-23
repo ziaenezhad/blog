@@ -1,5 +1,5 @@
 ---
-title: تحریر کتاب عالَم
+title: تحریر کتاب عالم
 date: 2026-08-07
 noReadMore: false
 image: image.jpg
