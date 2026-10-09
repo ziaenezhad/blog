@@ -1,0 +1,12 @@
+fa:
+  contentDir: content/fa
+  label: فارسی
+  direction: rtl
+  title: رفتن
+  weight: 1
+en:
+  contentDir: content/en
+  label: English
+  direction: ltr
+  title: ToPass
+  weight: 2

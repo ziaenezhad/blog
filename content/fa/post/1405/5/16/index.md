@@ -3,6 +3,7 @@ title: تحریر کتاب عالم
 date: 2026-08-07
 noReadMore: false
 image: image.jpg
+math: true
 description: ترجمه دیباچه و فصل اوّل کتاب Writing the Book of the World نوشته تئودور سایدر
 tags: ['فلسفه تحلیلی', 'زبان صوری', 'تئودور سایدر']
 categories: [philosophy, translation]

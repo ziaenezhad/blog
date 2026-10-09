@@ -1,0 +1,47 @@
+mainSections:
+  - post
+rssFullContent: true
+favicon: img/favicon.png
+SortBy: default
+footer:
+  since: 2020
+  customText: "نقل قول از مطالب این بلاگ بدون ارجاع مجاز نمی باشد."
+dateFormat:
+  published: :date_full
+  lastUpdated: :date_full
+sidebar:
+  # emoji: 🍥
+  description: ' مهندس نرم‌افزار | دانشجوی دکتری فلسفه‌اسلامی دانشگاه شیراز'
+  avatar: img/derock.jpg
+  subtitle: بلاگِ سجاد ضیاءنژاد
+article:
+  headingAnchor: true
+  math: false
+  readingTime: true
+  license:
+    enabled: false
+    default: Licensed under CC BY-NC-SA 4.0
+widgets:
+  homepage:
+    - type: search
+    - type: archives
+      params:
+        limit: 5
+    - type: categories
+      params:
+        limit: 10
+    - type: tag-cloud
+      params:
+        limit: 10
+  page:
+    - type: toc
+opengraph:
+  twitter:
+    site: ""
+    card: summary_large_image
+colorScheme:
+  toggle: true
+  default: auto
+comments:
+  enabled: true
+  provider: disqus

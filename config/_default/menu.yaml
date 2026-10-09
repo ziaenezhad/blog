@@ -1,0 +1,24 @@
+social:
+    - identifier: instagram
+      name: Instagram
+      url: https://www.instagram.com/sajjad_ziaenezhad/
+      params:
+        icon: brand-insta
+
+    - identifier: github
+      name: GitHub
+      url: https://github.com/ziaenezhad
+      params:
+        icon: brand-github
+
+    - identifier: goodreads
+      name: GoodReads
+      url: https://www.goodreads.com/ziaenezhad
+      params:
+          icon: books
+
+    - identifier: Pintrest
+      name: pintrest
+      url: https://www.pinterest.com/ziaenejad/
+      params:
+          icon: pintrest

@@ -3,6 +3,7 @@ title: زبان صوری
 date: 2026-07-28
 noReadMore: false
 image: image.jpg
+math: true
 description: ترجمه مدخل Formal language دانشنامه ویکی پدیا
 tags: ['منطق جدید', 'فلسفه تحلیلی', 'زبان صوری']
 categories: [logic, translation]

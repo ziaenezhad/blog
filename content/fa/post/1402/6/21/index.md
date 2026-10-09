@@ -2,6 +2,7 @@
 title: محاسبه عدد π
 date: 2023-09-12
 noReadMore: false
+math: true
 tags: ["π", "عدد پی", "ماشین حساب"]
 categories: ["math"]
 ---

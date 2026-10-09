@@ -1,0 +1,25 @@
+/*
+    You can add your own custom styles here.
+*/
+
+@import 'fonts.scss';
+@import 'sidebar.scss';
+@import 'rtl.scss';
+
+.menu-bottom-section > ol {
+  padding-right: 0px;
+}
+
+.article-content,
+.article-subtitle {
+  text-align: justify;
+}
+
+.article-list .article-footer {
+  margin: var(--card-padding);
+  gap: var(--spacing-2xl);
+}
+
+.article-details {
+  padding-bottom: 0px;
+}

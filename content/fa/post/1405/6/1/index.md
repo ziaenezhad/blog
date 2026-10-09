@@ -3,6 +3,7 @@ title: تغییر در متافیزیک تحلیلی و نظریه حرکت جو
 date: 2026-08-23
 noReadMore: false
 image: image.jpg
+math: true
 description: سخنرانی دکتر محمود مروارید در انجمن علمی فلسفه دانشگاه تهران
 tags: ['فلسفه تحلیلی', 'محمود مروارید', 'حرکت جوهری']
 categories: [philosophy]

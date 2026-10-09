@@ -1,0 +1,15 @@
+.katex,
+.katex-display {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+html[dir='rtl'] {
+  body {
+    .icon {
+      transform: scaleX(-1);
+      &.icon-tabler-brand-pinterest {
+        transform: scaleX(1);
+      }
+    }
+  }
+}

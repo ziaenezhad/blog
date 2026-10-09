@@ -1,0 +1,24 @@
+.sidebar header {
+  .site-avatar{
+    width: 200px;
+    height: 200px;
+    img {
+      border-radius: 16px !important;
+    }
+  }
+  .site-subtitle {
+    font-size: 1.6rem;
+    margin-top: 0;
+    //   margin-bottom: 0;
+    font-weight: 600;
+    color: var(--body-text-color);
+  }
+
+  .site-name {
+    font-size: 6rem !important;
+  }
+}
+
+#main-menu {
+  overflow-y: hidden;
+}
