@@ -2,6 +2,7 @@
 title: 'رضایت'
 date: 2026-10-31
 noReadMore: true
+tags: ['حوزه', 'من']
 categories: [diary]
 ---
 
