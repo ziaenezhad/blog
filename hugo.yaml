@@ -5,7 +5,7 @@ paginate: 10
 locale: 'fa_IR'
 description: ''
 favicon: ''
-
+enableRobotsTXT: true
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n
 defaultContentLanguage: 'fa'
